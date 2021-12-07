@@ -3168,3 +3168,1523 @@ java.lang.OutOfMemoryError: Java heap space
 [10:53:26] [Spigot Watchdog Thread/INFO]: _Moki lost connection: Server closed
 [10:53:26] [Spigot Watchdog Thread/INFO]: _Moki left the game
 [10:53:26] [Spigot Watchdog Thread/INFO]: xSwtDx lost connection: Server closed
+Unbundling libraries to /home/SMPINO/bundler
+Starting server
+Loading libraries, please wait...
+[11:31:22] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:31:22] [ServerMain/FATAL]: Failed to start the minecraft server
+net.minecraft.util.SessionLock$ExceptionWorldConflict: /home/SMPINO/./smpino/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.util.SessionLock$ExceptionWorldConflict.a(SourceFile:98) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.SessionLock.a(SourceFile:44) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.<init>(Convertable.java:316) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.storage.Convertable.createAccess(Convertable.java:286) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.server.Main.main(Main.java:146) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at org.bukkit.craftbukkit.Main.main(Main.java:206) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at org.bukkit.craftbukkit.bootstrap.Main.lambda$1(Main.java:59) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Unbundling libraries to /home/SMPINO/bundler
+Starting server
+Loading libraries, please wait...
+[11:40:30] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:40:31] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[11:40:32] [Worker-Main-4/INFO]: Loaded 7 recipes
+[11:40:30] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:40:31] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[11:40:32] [Worker-Main-4/INFO]: Loaded 7 recipes
+[11:40:34] [Server thread/INFO]: Starting minecraft server version 1.18
+[11:40:34] [Server thread/INFO]: Loading properties
+[11:40:34] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:244) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:263) ~[?:?]
+	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[jline-2.12.1.jar:?]
+	at jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[jline-2.12.1.jar:?]
+	at jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[jline-2.12.1.jar:?]
+	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[jline-2.12.1.jar:?]
+	at jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[jline-2.12.1.jar:?]
+	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[jline-2.12.1.jar:?]
+	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[jline-2.12.1.jar:?]
+	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[jline-2.12.1.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:130) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+[11:40:34] [Server thread/INFO]: This server is running CraftBukkit version 3332-Spigot-a5dea1c-bc14cb6 (MC: 1.18) (Implementing API version 1.18-R0.1-SNAPSHOT)
+[11:40:34] [Server thread/INFO]: Debug logging is disabled
+[11:40:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:40:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:40:34] [Server thread/INFO]: Default game type: SURVIVAL
+[11:40:34] [Server thread/INFO]: Generating keypair
+[11:40:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:40:35] [Server thread/INFO]: Using epoll channel type
+[11:40:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:40:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:40:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:40:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:40:35] [Server thread/INFO]: Preparing level "smpino"
+[11:40:36] [Server thread/INFO]: -------- World Settings For [smpino] --------
+[11:40:36] [Server thread/INFO]: Max TNT Explosions: 100
+[11:40:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:40:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:40:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:40:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:40:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:40:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:40:36] [Server thread/INFO]: Mob Spawn Range: 6
+[11:40:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:40:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:40:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:40:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:40:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:40:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:40:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:40:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:40:36] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:40:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:40:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:40:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:40:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:40:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:40:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:40:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:40:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:40:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:40:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:40:36] [Server thread/INFO]: View Distance: 10
+[11:40:36] [Server thread/INFO]: Simulation Distance: 10
+[11:40:36] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:40:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:40:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:40:37] [Server thread/INFO]: -------- World Settings For [smpino_nether] --------
+[11:40:37] [Server thread/INFO]: Max TNT Explosions: 100
+[11:40:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:40:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:40:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:40:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:40:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:40:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:40:37] [Server thread/INFO]: Mob Spawn Range: 6
+[11:40:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:40:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:40:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:40:37] [Server thread/INFO]: View Distance: 10
+[11:40:37] [Server thread/INFO]: Simulation Distance: 10
+[11:40:37] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:40:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:40:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:40:37] [Server thread/INFO]: -------- World Settings For [smpino_the_end] --------
+[11:40:37] [Server thread/INFO]: Max TNT Explosions: 100
+[11:40:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:40:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:40:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:40:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:40:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:40:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:40:37] [Server thread/INFO]: Mob Spawn Range: 6
+[11:40:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:40:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:40:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:40:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:40:37] [Server thread/INFO]: View Distance: 10
+[11:40:37] [Server thread/INFO]: Simulation Distance: 10
+[11:40:37] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:40:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:40:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:40:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:40:39] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:40:39] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[11:40:39] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:40:39] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[11:40:39] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:40:40] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[11:40:40] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[11:40:41] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[11:40:41] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[11:40:42] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:40:42] [Worker-Main-4/INFO]: Preparing spawn area: 1%
+[11:40:43] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[11:40:43] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[11:40:44] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[11:40:44] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[11:40:45] [Worker-Main-5/INFO]: Preparing spawn area: 6%
+[11:40:45] [Worker-Main-5/INFO]: Preparing spawn area: 15%
+[11:40:46] [Worker-Main-4/INFO]: Preparing spawn area: 21%
+[11:40:46] [Worker-Main-5/INFO]: Preparing spawn area: 26%
+[11:40:47] [Worker-Main-5/INFO]: Preparing spawn area: 33%
+[11:40:47] [Worker-Main-5/INFO]: Preparing spawn area: 47%
+[11:40:48] [Worker-Main-6/INFO]: Preparing spawn area: 71%
+[11:40:48] [Worker-Main-6/INFO]: Preparing spawn area: 81%
+[11:40:50] [Server thread/INFO]: Time elapsed: 12636 ms
+[11:40:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:40:51] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:40:51] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[11:40:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:40:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:40:52] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:40:52] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:40:53] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[11:40:54] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[11:40:54] [Worker-Main-6/INFO]: Preparing spawn area: 3%
+[11:40:54] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[11:40:55] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[11:40:56] [Worker-Main-4/INFO]: Preparing spawn area: 7%
+[11:40:56] [Worker-Main-4/INFO]: Preparing spawn area: 8%
+[11:40:57] [Worker-Main-5/INFO]: Preparing spawn area: 13%
+[11:40:57] [Worker-Main-5/INFO]: Preparing spawn area: 24%
+[11:40:57] [Worker-Main-4/INFO]: Preparing spawn area: 52%
+[11:40:58] [Worker-Main-6/INFO]: Preparing spawn area: 66%
+[11:40:59] [Worker-Main-4/INFO]: Preparing spawn area: 73%
+[11:40:59] [Worker-Main-5/INFO]: Preparing spawn area: 82%
+[11:40:59] [Worker-Main-6/INFO]: Preparing spawn area: 91%
+[11:41:00] [Worker-Main-6/INFO]: Preparing spawn area: 96%
+[11:41:00] [Server thread/INFO]: Time elapsed: 10433 ms
+[11:41:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:41:02] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:41:02] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[11:41:02] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:41:02] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[11:41:02] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[11:41:03] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:41:03] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:41:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:41:05] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:41:05] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:41:05] [Worker-Main-4/INFO]: Preparing spawn area: 12%
+[11:41:06] [Worker-Main-6/INFO]: Preparing spawn area: 21%
+[11:41:07] [Worker-Main-5/INFO]: Preparing spawn area: 41%
+[11:41:07] [Worker-Main-4/INFO]: Preparing spawn area: 59%
+[11:41:07] [Worker-Main-4/INFO]: Preparing spawn area: 70%
+[11:41:08] [Worker-Main-4/INFO]: Preparing spawn area: 80%
+[11:41:08] [Worker-Main-4/INFO]: Preparing spawn area: 85%
+[11:41:09] [Worker-Main-4/INFO]: Preparing spawn area: 93%
+[11:41:09] [Server thread/INFO]: Time elapsed: 8738 ms
+[11:41:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:41:09] [Server thread/INFO]: Done (34.003s)! For help, type "help"
+[11:41:19] [User Authenticator #1/INFO]: UUID of player Ducke is 28a82a3e-a355-3b54-9a13-9d3add7a59c1
+[11:41:20] [Server thread/INFO]: Ducke[/89.181.241.13:58503] logged in with entity id 143 at ([smpino]-2619.5, 79.0625, -826.5)
+[11:41:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5022ms or 100 ticks behind
+[11:42:01] [Server thread/INFO]: Ducke lost connection: Disconnected
+[11:42:01] [Server thread/INFO]: Ducke left the game
+[11:42:06] [User Authenticator #2/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[11:42:06] [Server thread/INFO]: xSwtDx[/87.196.101.81:59354] logged in with entity id 618 at ([smpino_nether]-327.4530876516897, 52.0, -118.06225706093555)
+[11:42:08] [User Authenticator #3/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[11:42:08] [Server thread/INFO]: Fariaa[/89.115.202.128:54025] logged in with entity id 647 at ([smpino]-2514.5808542364425, 62.9375, -896.2194676128892)
+[11:42:14] [User Authenticator #4/INFO]: UUID of player Digger19 is 9677ca35-82d2-3914-83c2-86a250a87eb9
+[11:42:14] [Server thread/INFO]: Digger19[/89.154.169.171:51207] logged in with entity id 1067 at ([smpino]-1082.8806193554115, -7.7477966597462755, 18.06181273452183)
+[11:43:12] [User Authenticator #5/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[11:43:13] [Server thread/INFO]: Kunkers[/94.61.5.137:57008] logged in with entity id 1600 at ([smpino]-1332.9145302085826, 98.0, -70.08241349040956)
+[11:47:29] [Async Chat Thread - #0/INFO]: <Kunkers> are you farming?
+[11:47:31] [Async Chat Thread - #0/INFO]: <Kunkers> piss
+[11:56:48] [User Authenticator #6/INFO]: UUID of player _Moki is ae5c0ec8-f242-3425-ae53-7d28eee6783b
+[11:56:48] [Server thread/INFO]: _Moki[/94.62.177.219:57958] logged in with entity id 8424 at ([smpino]-1148.992996963993, 66.0, 134.42041161292562)
+[12:04:12] [Server thread/WARN]: Digger19 moved too quickly! -0.027115472977129684,0.0,10.140420939057464
+[12:13:06] [Server thread/INFO]: _Moki lost connection: Disconnected
+[12:13:06] [Server thread/INFO]: _Moki left the game
+[12:13:15] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[12:13:15] [Server thread/INFO]: xSwtDx left the game
+[12:13:30] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[12:13:30] [Server thread/INFO]: Kunkers left the game
+[12:13:32] [User Authenticator #7/INFO]: UUID of player _Moki is ae5c0ec8-f242-3425-ae53-7d28eee6783b
+[12:13:32] [Server thread/INFO]: _Moki[/94.62.177.219:58460] logged in with entity id 16963 at ([smpino]-1334.0841290893936, 91.0, -147.414194154423)
+[12:13:33] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[12:13:33] [Server thread/INFO]: Fariaa left the game
+[12:14:20] [User Authenticator #8/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[12:14:20] [Server thread/INFO]: xSwtDx[/87.196.101.81:54113] logged in with entity id 17342 at ([smpino]-2653.97052410232, 11.0, -924.6999999880791)
+[12:14:23] [User Authenticator #9/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[12:14:23] [Server thread/INFO]: Fariaa[/89.115.202.128:56143] logged in with entity id 17473 at ([smpino]-2513.648902211729, 63.0, -908.2654243963084)
+[12:14:24] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[12:14:24] [Server thread/INFO]: xSwtDx left the game
+[12:14:27] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[12:14:27] [Server thread/INFO]: Fariaa left the game
+[12:14:30] [User Authenticator #10/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[12:14:30] [Server thread/INFO]: Kunkers[/94.61.5.137:8549] logged in with entity id 17785 at ([smpino]-1086.8021254197315, -7.0, -54.40144729977051)
+[12:14:34] [User Authenticator #11/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[12:14:34] [User Authenticator #12/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[12:14:34] [Server thread/INFO]: Fariaa[/89.115.202.128:58840] logged in with entity id 17855 at ([smpino]-2513.648902211729, 63.0, -908.2654243963084)
+[12:14:37] [Server thread/INFO]: xSwtDx[/87.196.101.81:54116] logged in with entity id 17856 at ([smpino]-2653.97052410232, 11.0, -924.6999999880791)
+[12:15:48] [Server thread/INFO]: _Moki was blown up by Creeper
+[12:15:51] [Async Chat Thread - #1/INFO]: <Fariaa> XD
+[12:23:13] [Server thread/INFO]: _Moki was slain by Enderman
+[12:32:04] [Server thread/INFO]: _Moki lost connection: Disconnected
+[12:32:04] [Server thread/INFO]: _Moki left the game
+[12:38:06] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[12:38:06] [Server thread/INFO]: xSwtDx left the game
+[12:46:03] [User Authenticator #13/INFO]: UUID of player _Moki is ae5c0ec8-f242-3425-ae53-7d28eee6783b
+[12:46:03] [Server thread/INFO]: _Moki[/94.62.177.219:58880] logged in with entity id 33445 at ([smpino]-1143.1081262025934, 66.0, 122.32831231058323)
+[13:09:11] [Async Chat Thread - #2/INFO]: <_Moki> algum de vcs tem pa crl de deepslate
+[13:09:17] [Async Chat Thread - #2/INFO]: <Kunkers> nope
+[13:09:23] [Async Chat Thread - #2/INFO]: <Kunkers> e nem tapaste o buraco enfim
+[13:09:27] [Async Chat Thread - #2/INFO]: <Kunkers> xX
+[13:09:29] [Async Chat Thread - #2/INFO]: <Kunkers> zZ
+[13:09:31] [Async Chat Thread - #2/INFO]: <_Moki> esse era os segundo
+[13:09:32] [Async Chat Thread - #2/INFO]: <Kunkers> zZzZzZzZZZzZ
+[13:09:34] [Async Chat Thread - #2/INFO]: <_Moki> o segundo*
+[13:09:35] [Async Chat Thread - #2/INFO]: <Kunkers> zZzZzZzZzZ
+[13:09:37] [Async Chat Thread - #2/INFO]: <Kunkers> zZzZzZzZz
+[13:09:38] [Async Chat Thread - #2/INFO]: <_Moki> fiquei tilted
+[13:09:40] [Async Chat Thread - #2/INFO]: <Kunkers> ZzZzZzZzZz
+[13:09:43] [Async Chat Thread - #2/INFO]: <Kunkers> ZzZzZzZzZzZ
+[13:09:47] [Async Chat Thread - #2/INFO]: <Kunkers> zZzZzZzZzZzZz
+[13:09:52] [Async Chat Thread - #2/INFO]: <Kunkers> ZzZzZzZzZzZzZzZzZz
+[13:09:54] [Async Chat Thread - #2/INFO]: <Kunkers> ZzZzZzZ
+[13:14:29] [Server thread/INFO]: _Moki has made the advancement [Cover Me with Diamonds]
+[13:14:32] [Server thread/INFO]: Digger19 lost connection: Disconnected
+[13:14:32] [Server thread/INFO]: Digger19 left the game
+[13:22:13] [User Authenticator #14/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[13:22:13] [Server thread/INFO]: xSwtDx[/87.196.101.81:52199] logged in with entity id 47092 at ([smpino]-1240.2457793043538, 95.0, 956.8956307536045)
+[13:24:09] [Server thread/INFO]: _Moki lost connection: Disconnected
+[13:24:09] [Server thread/INFO]: _Moki left the game
+[13:26:01] [User Authenticator #15/INFO]: UUID of player _Moki is ae5c0ec8-f242-3425-ae53-7d28eee6783b
+[13:26:01] [Server thread/INFO]: _Moki[/94.62.177.219:7637] logged in with entity id 49481 at ([smpino_nether]-526.3086478487882, 35.0, 2.9313866600159684)
+[13:26:34] [Server thread/INFO]: _Moki has made the advancement [A Terrible Fortress]
+[13:31:08] [Server thread/INFO]: _Moki lost connection: Disconnected
+[13:31:08] [Server thread/INFO]: _Moki left the game
+[13:31:28] [User Authenticator #16/INFO]: UUID of player _Moki is ae5c0ec8-f242-3425-ae53-7d28eee6783b
+[13:31:28] [Server thread/INFO]: _Moki[/94.62.177.219:56156] logged in with entity id 53100 at ([smpino_nether]-432.4337876909324, 52.0, -77.10959002337435)
+[13:37:57] [Server thread/INFO]: Kunkers has made the advancement [Sticky Situation]
+[13:43:59] [Server thread/INFO]: Kunkers has made the advancement [Sound of Music]
+[13:45:46] [Server thread/INFO]: Kunkers has made the advancement [Light as a Rabbit]
+[13:47:25] [Server thread/INFO]: xSwtDx has made the advancement [A Terrible Fortress]
+[13:48:04] [Server thread/INFO]: xSwtDx has made the advancement [Into Fire]
+[13:51:02] [Server thread/WARN]: _Moki moved too quickly! 0.03245998706881892,0.6315999343633649,-16.60754069538595
+[13:54:28] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[13:54:28] [Server thread/INFO]: Kunkers left the game
+[13:58:06] [Server thread/INFO]: xSwtDx tried to swim in lava
+[14:03:54] [Server thread/INFO]: Fariaa has made the advancement [Hidden in the Depths]
+[14:10:54] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[14:10:54] [Server thread/INFO]: xSwtDx left the game
+[14:13:29] [Server thread/INFO]: _Moki lost connection: Disconnected
+[14:13:29] [Server thread/INFO]: _Moki left the game
+[14:29:17] [User Authenticator #17/INFO]: UUID of player Digger19 is 9677ca35-82d2-3914-83c2-86a250a87eb9
+[14:29:17] [Server thread/INFO]: Digger19[/89.154.169.171:65301] logged in with entity id 87363 at ([smpino]-1103.699999988079, -4.0, 53.42813466742914)
+[14:29:40] [Async Chat Thread - #3/INFO]: <Fariaa> 32 rotten flesh -> emerald
+[14:33:50] [Async Chat Thread - #4/INFO]: <Fariaa> brb
+[14:33:51] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[14:33:51] [Server thread/INFO]: Fariaa left the game
+[14:50:59] [User Authenticator #18/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[14:51:00] [Server thread/INFO]: Kunkers[/94.61.5.137:62914] logged in with entity id 91069 at ([smpino]-1333.7743716375783, 95.0, -121.87341758711244)
+[14:53:05] [Server thread/INFO]: Digger19 fell from a high place
+[14:57:17] [User Authenticator #19/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[14:57:17] [Server thread/INFO]: Fariaa[/89.115.202.128:62682] logged in with entity id 93105 at ([smpino]-2589.336608135641, 78.0, -829.3275002542948)
+[14:57:38] [Server thread/INFO]: Digger19 lost connection: Disconnected
+[14:57:38] [Server thread/INFO]: Digger19 left the game
+[14:58:31] [User Authenticator #20/INFO]: UUID of player Digger19 is 9677ca35-82d2-3914-83c2-86a250a87eb9
+[14:58:32] [Server thread/INFO]: Digger19[/89.154.169.171:60222] logged in with entity id 93799 at ([smpino]-1142.699999988079, 66.0, 130.2961708498823)
+[14:59:12] [User Authenticator #21/INFO]: UUID of player Nobre_S is 00433942-15b0-3384-852d-75ea1793efcd
+[14:59:12] [Server thread/INFO]: Nobre_S[/89.115.202.128:52849] logged in with entity id 94218 at ([smpino]-2577.6588822021768, 78.0, -824.9523340775982)
+[15:01:15] [Async Chat Thread - #5/INFO]: <Fariaa> chunky
+[15:01:23] [Async Chat Thread - #5/INFO]: <Fariaa> <3
+[15:06:49] [Server thread/INFO]: Nobre_S was blown up by Creeper
+[15:07:56] [Server thread/INFO]: Nobre_S was slain by Zombie
+[15:12:26] [Server thread/INFO]: Digger19 has made the advancement [Hot Stuff]
+[15:50:15] [Async Chat Thread - #6/INFO]: <Fariaa> yes
+[15:50:26] [Async Chat Thread - #6/INFO]: <Fariaa> phantom
+[15:50:56] [Async Chat Thread - #6/INFO]: <Fariaa> 30%
+[15:51:11] [Async Chat Thread - #6/INFO]: <Fariaa> 100%
+[15:59:33] [Server thread/INFO]: Digger19 lost connection: Disconnected
+[15:59:33] [Server thread/INFO]: Digger19 left the game
+[16:13:54] [Server thread/INFO]: Nobre_S lost connection: Disconnected
+[16:13:54] [Server thread/INFO]: Nobre_S left the game
+[16:14:28] [User Authenticator #22/INFO]: UUID of player Nobre_S is 00433942-15b0-3384-852d-75ea1793efcd
+[16:14:29] [Server thread/INFO]: Nobre_S[/89.115.202.128:58401] logged in with entity id 130864 at ([smpino]-2619.300000011921, -1.0, -941.6180348116845)
+[16:15:00] [User Authenticator #23/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[16:15:00] [Server thread/INFO]: xSwtDx[/87.196.101.81:55360] logged in with entity id 131026 at ([smpino]-1236.7997939077811, 95.0, 954.2240356683338)
+[16:16:55] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S Fariaa
+[16:16:55] [Server thread/INFO]: [Fariaa: Teleported Nobre_S to Fariaa]
+[16:20:42] [Server thread/INFO]: Nobre_S has made the advancement [The Parrots and the Bats]
+[16:21:13] [User Authenticator #24/INFO]: UUID of player Krix2g is e755e9ff-c888-3a3c-bb84-bca624ee043b
+[16:21:13] [Server thread/INFO]: Krix2g[/178.166.53.145:52038] logged in with entity id 134975 at ([smpino]-1341.0160433043222, 144.0, -470.37628289963567)
+[16:21:18] [Async Chat Thread - #7/INFO]: <Krix2g> shit game
+[16:21:20] [Server thread/INFO]: Krix2g lost connection: Disconnected
+[16:21:20] [Server thread/INFO]: Krix2g left the game
+[16:21:33] [User Authenticator #25/INFO]: UUID of player Krix2g is e755e9ff-c888-3a3c-bb84-bca624ee043b
+[16:21:33] [Server thread/INFO]: Krix2g[/178.166.53.145:50672] logged in with entity id 135253 at ([smpino]-1341.0160433043222, 144.0, -470.37628289963567)
+[16:23:44] [Server thread/INFO]: Nobre_S lost connection: Disconnected
+[16:23:44] [Server thread/INFO]: Nobre_S left the game
+[16:35:14] [Server thread/INFO]: Krix2g lost connection: Disconnected
+[16:35:14] [Server thread/INFO]: Krix2g left the game
+[16:36:33] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[16:36:33] [Server thread/INFO]: xSwtDx left the game
+[16:57:54] [Server thread/INFO]: Fariaa issued server command: /scoreboard objectives add Hearts health
+[16:57:54] [Server thread/INFO]: [Fariaa: Created new objective [Hearts]]
+[16:58:02] [Server thread/INFO]: Fariaa issued server command: /scoreboard objectives setdisplay list Hearts
+[16:58:02] [Server thread/INFO]: [Fariaa: Set display slot list to show objective Hearts]
+[16:59:18] [Server thread/INFO]: Fariaa issued server command: /scoreboard objectives add Deaths deathCount
+[16:59:18] [Server thread/INFO]: [Fariaa: Created new objective [Deaths]]
+[16:59:22] [Server thread/INFO]: Fariaa issued server command: /scoreboard objectives setdisplay list Deaths
+[16:59:22] [Server thread/INFO]: [Fariaa: Set display slot list to show objective Deaths]
+[16:59:32] [Server thread/INFO]: Fariaa issued server command: /scoreboard objectives setdisplay list Hearts
+[16:59:32] [Server thread/INFO]: [Fariaa: Set display slot list to show objective Hearts]
+[17:01:07] [Async Chat Thread - #8/INFO]: <Fariaa> ?
+[17:01:14] [Async Chat Thread - #8/INFO]: <Fariaa> pires
+[17:01:22] [Async Chat Thread - #8/INFO]: <Fariaa> ele vive la
+[17:01:38] [Async Chat Thread - #8/INFO]: <Fariaa> ik
+[17:01:42] [Async Chat Thread - #8/INFO]: <Fariaa> yes
+[17:02:59] [Async Chat Thread - #9/INFO]: <Fariaa> brb
+[17:03:06] [Async Chat Thread - #9/INFO]: <Fariaa> discord if tp needed
+[17:29:22] [Async Chat Thread - #10/INFO]: <Kunkers> os coelhos albinos sao raros?
+[17:50:09] [Async Chat Thread - #11/INFO]: <Kunkers> faria??
+[17:56:15] [Async Chat Thread - #12/INFO]: <Kunkers> tens leather?
+[17:56:20] [Async Chat Thread - #12/INFO]: <Fariaa> yes
+[17:56:24] [Async Chat Thread - #12/INFO]: <Fariaa> or no
+[17:56:24] [Async Chat Thread - #12/INFO]: <Kunkers> where
+[17:56:25] [Async Chat Thread - #12/INFO]: <Fariaa> idk
+[17:56:27] [Async Chat Thread - #12/INFO]: <Kunkers> lmao
+[17:56:57] [Async Chat Thread - #12/INFO]: <Kunkers> tens lootting?
+[17:57:09] [Async Chat Thread - #12/INFO]: <Kunkers> mata vacas then
+[17:57:11] [Async Chat Thread - #12/INFO]: <Kunkers> e da me
+[17:57:25] [Async Chat Thread - #12/INFO]: <Kunkers> mroe
+[17:57:27] [Async Chat Thread - #12/INFO]: <Kunkers> more
+[17:57:39] [Async Chat Thread - #12/INFO]: <Kunkers> ty
+[17:57:43] [Async Chat Thread - #12/INFO]: <Kunkers> ly
+[17:57:54] [Async Chat Thread - #12/INFO]: <Fariaa> <3
+[18:16:37] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[18:16:37] [Server thread/INFO]: Kunkers left the game
+[18:18:10] [User Authenticator #26/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[18:18:10] [Server thread/INFO]: Kunkers[/94.61.5.137:44567] logged in with entity id 174699 at ([smpino]-1324.9861984031754, 108.0, -91.17240128065671)
+[18:21:11] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[18:21:11] [Server thread/INFO]: Kunkers left the game
+[19:21:03] [User Authenticator #27/INFO]: UUID of player Digger19 is 9677ca35-82d2-3914-83c2-86a250a87eb9
+[19:21:03] [Server thread/INFO]: Digger19[/148.71.230.58:50939] logged in with entity id 187278 at ([smpino]-1107.5188233010597, 64.0, 135.34359599076538)
+[19:22:41] [Server thread/INFO]: Digger19 lost connection: Disconnected
+[19:22:41] [Server thread/INFO]: Digger19 left the game
+[19:28:16] [User Authenticator #28/INFO]: UUID of player Digger19 is 9677ca35-82d2-3914-83c2-86a250a87eb9
+[19:28:17] [Server thread/INFO]: Digger19[/89.154.169.171:57989] logged in with entity id 189096 at ([smpino]-1107.6442844079677, 64.0, 136.1940858727267)
+[20:04:06] [User Authenticator #29/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[20:04:06] [Server thread/INFO]: Kunkers[/94.61.5.137:58860] logged in with entity id 199628 at ([smpino]-1335.4288479738982, 98.0, -74.83569726763821)
+[20:19:54] [Server thread/INFO]: Digger19 lost connection: Disconnected
+[20:19:54] [Server thread/INFO]: Digger19 left the game
+[20:43:48] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[20:43:48] [Server thread/INFO]: Fariaa left the game
+[20:43:52] [Async Chat Thread - #13/INFO]: <Kunkers> dead sever
+[20:59:48] [User Authenticator #30/INFO]: UUID of player Digger19 is 9677ca35-82d2-3914-83c2-86a250a87eb9
+[20:59:48] [Server thread/INFO]: Digger19[/89.154.169.171:51114] logged in with entity id 217598 at ([smpino]-1104.699999988079, -28.125, 51.54406211093926)
+[21:00:09] [Async Chat Thread - #14/INFO]: <Kunkers> faria
+[21:00:19] [Async Chat Thread - #14/INFO]: <Kunkers> posso roubar te esmeraldas???
+[21:00:34] [Async Chat Thread - #14/INFO]: <Digger19> faria
+[21:01:02] [Async Chat Thread - #14/INFO]: <Digger19> posso roubar a virgindade da tua thrussy?
+[21:19:07] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[21:19:07] [Server thread/INFO]: Kunkers left the game
+[21:55:30] [Server thread/INFO]: Digger19 lost connection: Disconnected
+[21:55:30] [Server thread/INFO]: Digger19 left the game
+[21:56:47] [User Authenticator #31/INFO]: UUID of player Digger19 is 9677ca35-82d2-3914-83c2-86a250a87eb9
+[21:56:47] [Server thread/INFO]: Digger19[/89.154.169.171:59267] logged in with entity id 227140 at ([smpino]-1099.898190540559, -20.0, 64.38215797905652)
+[22:04:27] [Server thread/INFO]: Digger19 lost connection: Disconnected
+[22:04:27] [Server thread/INFO]: Digger19 left the game
+[22:12:17] [User Authenticator #32/INFO]: UUID of player Digger19 is 9677ca35-82d2-3914-83c2-86a250a87eb9
+[22:12:17] [Server thread/INFO]: Digger19[/89.154.169.171:59778] logged in with entity id 228333 at ([smpino]-1129.699999988079, -21.0, 91.92449778351774)
+[22:49:29] [User Authenticator #33/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[22:49:29] [Server thread/INFO]: Fariaa[/89.115.202.128:59819] logged in with entity id 233304 at ([smpino]-2578.9550124532607, 78.0, -830.5443873511315)
+[22:50:33] [Async Chat Thread - #15/INFO]: <Fariaa> sneaking
+[22:50:59] [Async Chat Thread - #15/INFO]: <Digger19> farming
+[22:51:12] [Async Chat Thread - #15/INFO]: <Fariaa> man's on the grindset ye
+[23:06:25] [User Authenticator #34/INFO]: UUID of player _Moki is ae5c0ec8-f242-3425-ae53-7d28eee6783b
+[23:06:25] [Server thread/INFO]: _Moki[/94.62.177.219:14849] logged in with entity id 239372 at ([smpino]-1121.300000011921, 68.0, 122.07348126539492)
+[23:23:39] [Async Chat Thread - #16/INFO]: <Fariaa> amoguns
+[23:23:44] [Async Chat Thread - #16/INFO]: <_Moki> sussongus
+[23:23:58] [Async Chat Thread - #16/INFO]: <Digger19> susper idol
+[23:35:50] [Async Chat Thread - #17/INFO]: <_Moki> xp farm?
+[23:36:05] [Async Chat Thread - #17/INFO]: <_Moki> if yes, where?
+[23:36:40] [Async Chat Thread - #17/INFO]: <Fariaa> onde ta o pires prob
+[23:43:02] [Server thread/INFO]: _Moki lost connection: Disconnected
+[23:43:02] [Server thread/INFO]: _Moki left the game
+[23:43:27] [User Authenticator #35/INFO]: UUID of player _Moki is ae5c0ec8-f242-3425-ae53-7d28eee6783b
+[23:43:27] [Server thread/INFO]: _Moki[/94.62.177.219:64096] logged in with entity id 251719 at ([smpino]-1135.398811023067, 68.0, 121.51751512612883)
+[23:43:34] [Async Chat Thread - #18/INFO]: <_Moki> good talk btw guys!
+[23:43:44] [Async Chat Thread - #18/INFO]: <Fariaa> onde ta o pires prob
+[23:43:45] [Async Chat Thread - #18/INFO]: <Fariaa> onde ta o pires prob
+[23:43:45] [Async Chat Thread - #18/INFO]: <Fariaa> onde ta o pires prob
+[23:43:46] [Async Chat Thread - #18/INFO]: <Fariaa> onde ta o pires prob
+[23:43:46] [Async Chat Thread - #18/INFO]: <Fariaa> onde ta o pires prob
+[23:43:47] [Async Chat Thread - #18/INFO]: <Fariaa> onde ta o pires prob
+[23:43:48] [Async Chat Thread - #18/INFO]: <Fariaa> onde ta o pires prob
+[23:43:48] [Async Chat Thread - #18/INFO]: <Fariaa> onde ta o pires prob
+[23:43:58] [Async Chat Thread - #18/INFO]: <_Moki> tas a ser sassy pa que
+[23:44:03] [Async Chat Thread - #18/INFO]: <_Moki> era uma yes or no question
+[23:44:20] [Async Chat Thread - #18/INFO]: <Fariaa> "if yes, where?"
+[23:44:31] [Async Chat Thread - #18/INFO]: <_Moki> n respondeste
+[23:44:34] [Async Chat Thread - #18/INFO]: <_Moki> thats my point
+[23:44:42] [Async Chat Thread - #18/INFO]: <_Moki> whatever
+[23:44:48] [Async Chat Thread - #18/INFO]: <Digger19> pablo tas em casa?
+[23:45:01] [Async Chat Thread - #18/INFO]: <Digger19> assim mostro te
+[23:45:02] [Async Chat Thread - #18/INFO]: <_Moki> ya what u want
+[23:45:25] [Async Chat Thread - #18/INFO]: <Digger19> so vi agora as mensagens tava a ver o forsen a ser flamed na stream KEK
+[23:45:35] [Async Chat Thread - #18/INFO]: <_Moki> np o faria afinal respondeu all good
+[23:45:45] [Async Chat Thread - #18/INFO]: <_Moki> forse be like "lets go bojs"
+[23:46:12] [Async Chat Thread - #18/INFO]: <_Moki> tou a comer pipocas perai
+[23:46:17] [Async Chat Thread - #18/INFO]: <_Moki> lead the way
+[23:46:17] [Async Chat Thread - #18/INFO]: <Digger19> k
+[23:47:00] [Async Chat Thread - #18/INFO]: <Digger19> down there
+[23:47:03] [Async Chat Thread - #18/INFO]: <_Moki> sheeeeeesh
+[23:47:26] [Async Chat Thread - #18/INFO]: <Digger19> e so esperares pra eles darem spawn e dar whack
+[00:00:35] [Server thread/INFO]: _Moki issued server command: /msg
+[00:00:38] [Server thread/INFO]: _Moki issued server command: /msg d
+[00:00:50] [Server thread/INFO]: _Moki issued server command: /msg Digger19 acho que dei mess up aos chests ao limpar
+[00:01:02] [Server thread/INFO]: _Moki issued server command: /msg Digger19 é suposto só mexer no de cima né?
+[00:01:10] [Server thread/INFO]: _Moki issued server command: /help
+[00:01:15] [Async Chat Thread - #19/INFO]: <Digger19> podes mexer em qualquer deles
+[00:01:15] [Server thread/INFO]: _Moki issued server command: /plugins
+[00:01:19] [Async Chat Thread - #19/INFO]: <_Moki> kk
+[00:01:25] [Async Chat Thread - #19/INFO]: <Digger19> fuck how does this work
+[00:01:36] [Server thread/INFO]: Digger19 issued server command: /w _Moki ok e assim kek
+[00:01:40] [Async Chat Thread - #19/INFO]: <_Moki> ./msg pessoa mensagem
+[00:10:53] [Async Chat Thread - #20/INFO]: <_Moki> wtf perdi me ao sair
+[00:11:39] [Async Chat Thread - #20/INFO]: <_Moki> food plis?
+[00:11:49] [Async Chat Thread - #20/INFO]: <_Moki> thanks jesus
+[00:12:02] [Async Chat Thread - #20/INFO]: <Digger19> no prob
+[00:12:18] [Async Chat Thread - #20/INFO]: <_Moki> wtf
+[00:12:20] [Async Chat Thread - #20/INFO]: <_Moki> bloons td
+[00:12:25] [Async Chat Thread - #20/INFO]: <_Moki> zombies a entrar
+[00:12:56] [Async Chat Thread - #20/INFO]: <_Moki> como é que saio daqui piss
+[00:15:40] [Async Chat Thread - #21/INFO]: <Fariaa> gn
+[00:16:00] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[00:16:00] [Server thread/INFO]: Fariaa left the game
+[00:16:51] [Async Chat Thread - #22/INFO]: <_Moki> im mega lost n sei sair desta cave man
+[00:17:40] [Async Chat Thread - #22/INFO]: <_Moki> aha
+[00:17:41] [Async Chat Thread - #22/INFO]: <_Moki> ty
+[00:17:48] [Async Chat Thread - #22/INFO]: <Digger19> np
+[00:19:46] [Server thread/INFO]: _Moki has made the advancement [Enchanter]
+[00:24:59] [Async Chat Thread - #23/INFO]: <_Moki> que susto
+[00:37:47] [Async Chat Thread - #24/INFO]: <Digger19> vou dormir, boa noite
+[00:37:50] [Server thread/INFO]: Digger19 lost connection: Disconnected
+[00:37:50] [Server thread/INFO]: Digger19 left the game
+[00:37:50] [Async Chat Thread - #24/INFO]: <_Moki> gn
+[00:51:40] [Server thread/INFO]: _Moki has made the advancement [Fishy Business]
+[01:19:52] [Server thread/INFO]: _Moki lost connection: Disconnected
+[01:19:52] [Server thread/INFO]: _Moki left the game
+[02:25:31] [User Authenticator #36/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[02:25:31] [Server thread/INFO]: Kunkers[/94.61.5.137:64574] logged in with entity id 270727 at ([smpino]-1335.4556012860094, 98.0, -53.10731615150915)
+[03:04:02] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[03:04:02] [Server thread/INFO]: Kunkers left the game
+[10:26:55] [User Authenticator #37/INFO]: UUID of player _Moki is ae5c0ec8-f242-3425-ae53-7d28eee6783b
+[10:26:55] [Server thread/INFO]: _Moki[/94.62.177.219:55176] logged in with entity id 278368 at ([smpino]-1114.5, 66.0, 126.5)
+[10:27:41] [Server thread/INFO]: _Moki fell from a high place
+[11:12:41] [User Authenticator #38/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[11:12:41] [Server thread/INFO]: Kunkers[/94.61.5.137:51608] logged in with entity id 282550 at ([smpino]-2570.0720170616614, 72.9375, -859.9521282339848)
+[11:12:44] [Server thread/WARN]: _Moki moved too quickly! 2.0,12.002778132923876,-0.8619005703711906
+[11:12:54] [Async Chat Thread - #25/INFO]: <_Moki> bom dia
+[11:12:57] [Async Chat Thread - #25/INFO]: <_Moki> tens luck of the sea?
+[11:13:01] [Async Chat Thread - #25/INFO]: <Kunkers> buenos dias
+[11:13:03] [Async Chat Thread - #25/INFO]: <Kunkers> nope
+[11:14:51] [User Authenticator #39/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[11:14:52] [Server thread/INFO]: Fariaa[/89.115.202.128:55330] logged in with entity id 283490 at ([smpino]-2588.6562560565726, 77.0, -851.3645217272167)
+[11:17:50] [Async Chat Thread - #26/INFO]: <_Moki> tens luck of the sea faria?
+[11:18:15] [Async Chat Thread - #26/INFO]: <Fariaa> yes
+[11:18:20] [Async Chat Thread - #26/INFO]: <_Moki> trade
+[11:18:25] [Async Chat Thread - #26/INFO]: <Fariaa> i have two luck of the sea 2 books
+[11:18:33] [Async Chat Thread - #26/INFO]: <Fariaa> free
+[11:18:36] [Server thread/INFO]: Fariaa issued server command: /tp Fariaa _Moki
+[11:18:36] [Server thread/INFO]: [Fariaa: Teleported Fariaa to _Moki]
+[11:18:36] [Async Chat Thread - #26/INFO]: <_Moki> trade por unbreaking 3 lure 2 rod
+[11:18:42] [Async Chat Thread - #26/INFO]: <_Moki> tenho 3 destas
+[11:18:44] [Async Chat Thread - #26/INFO]: <_Moki> ty
+[11:18:48] [Async Chat Thread - #26/INFO]: <Fariaa> man
+[11:18:56] [Async Chat Thread - #26/INFO]: <Fariaa> i have rod with luck 3 lure 3 un 3 mending
+[11:19:10] [Async Chat Thread - #26/INFO]: <_Moki> le pog
+[11:19:12] [Async Chat Thread - #26/INFO]: <Kunkers> thats my dick
+[11:21:00] [Server thread/WARN]: Kunkers moved too quickly! 12.46412905724344,1.1661092609382138,-0.05242018181765218
+[11:36:07] [Server thread/INFO]: _Moki lost connection: Disconnected
+[11:36:07] [Server thread/INFO]: _Moki left the game
+[11:52:26] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[11:52:26] [Server thread/INFO]: Kunkers left the game
+[12:16:22] [Server thread/INFO]: Fariaa has made the advancement [Surge Protector]
+[12:27:43] [Server thread/INFO]: Fariaa issued server command: /give Fariaa iron_bars 1
+[12:27:43] [Server thread/INFO]: [Fariaa: Gave 1 [Iron Bars] to Fariaa]
+[12:29:12] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[12:29:12] [Server thread/INFO]: Fariaa left the game
+[12:36:47] [User Authenticator #40/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[12:36:47] [Server thread/INFO]: Fariaa[/89.115.202.128:56994] logged in with entity id 302795 at ([smpino]-2587.3390155488046, 100.0, -867.3000000119209)
+[12:41:58] [User Authenticator #41/INFO]: UUID of player Digger19 is 9677ca35-82d2-3914-83c2-86a250a87eb9
+[12:41:58] [Server thread/INFO]: Digger19[/89.154.169.171:64613] logged in with entity id 304110 at ([smpino]-1095.726174153511, 64.0, 133.64649320886417)
+[12:48:43] [Async Chat Thread - #27/INFO]: <Fariaa> dig
+[12:48:57] [Async Chat Thread - #27/INFO]: <Digger19> fala
+[12:55:24] [User Authenticator #42/INFO]: UUID of player Nobre_S is 00433942-15b0-3384-852d-75ea1793efcd
+[12:55:24] [Server thread/INFO]: Nobre_S[/89.115.202.128:51164] logged in with entity id 309217 at ([smpino]-2577.1452237150856, 78.0, -825.0440519767683)
+[12:56:14] [Server thread/INFO]: Nobre_S lost connection: Timed out
+[12:56:14] [Server thread/INFO]: Nobre_S left the game
+[12:56:37] [User Authenticator #43/INFO]: UUID of player Nobre_S is 00433942-15b0-3384-852d-75ea1793efcd
+[12:56:37] [Server thread/INFO]: Nobre_S[/89.115.202.128:17031] logged in with entity id 309754 at ([smpino]-2577.1452237150856, 78.0, -825.0440519767683)
+[12:57:02] [Server thread/INFO]: Nobre_S lost connection: Timed out
+[12:57:02] [Server thread/INFO]: Nobre_S left the game
+[12:57:24] [User Authenticator #44/INFO]: UUID of player Nobre_S is 00433942-15b0-3384-852d-75ea1793efcd
+[12:57:25] [Server thread/INFO]: Nobre_S[/89.115.202.128:51200] logged in with entity id 310056 at ([smpino]-2577.1452237150856, 78.0, -825.0440519767683)
+[13:13:10] [User Authenticator #45/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[13:13:10] [Server thread/INFO]: Kunkers[/94.61.5.137:64774] logged in with entity id 316124 at ([smpino]-1331.6911830629592, 108.0, -85.27900692040949)
+[13:13:27] [Async Chat Thread - #28/INFO]: <Kunkers> ola pries
+[13:13:28] [Async Chat Thread - #28/INFO]: <Kunkers> pris
+[13:13:30] [Async Chat Thread - #28/INFO]: <Kunkers> pires
+[13:16:32] [Server thread/INFO]: Kunkers has completed the challenge [Sniper Duel]
+[13:19:19] [Server thread/INFO]: Nobre_S has made the advancement [Ice Bucket Challenge]
+[13:19:37] [Server thread/INFO]: Digger19 lost connection: Disconnected
+[13:19:37] [Server thread/INFO]: Digger19 left the game
+[13:29:31] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[13:29:31] [Server thread/INFO]: Kunkers left the game
+[13:35:08] [Server thread/WARN]: Nobre_S moved too quickly! -3.1733730752362135,0.0,9.72094688130062
+[13:38:32] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:purple_dye 10
+[13:38:32] [Server thread/INFO]: [Fariaa: Gave 10 [Purple Dye] to Fariaa]
+[13:41:18] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:brewing_stand 2
+[13:41:18] [Server thread/INFO]: [Fariaa: Gave 2 [Brewing Stand] to Fariaa]
+[13:42:29] [Server thread/INFO]: Fariaa issued server command: /give Fariaa candle 20
+[13:42:29] [Server thread/INFO]: [Fariaa: Gave 20 [Candle] to Fariaa]
+[13:47:37] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S
+[13:47:37] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Nobre_S]
+[13:58:41] [User Authenticator #46/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[13:58:41] [Server thread/INFO]: Kunkers[/94.61.5.137:59311] logged in with entity id 333405 at ([smpino]-1249.360397656975, 124.0, -451.73115372264857)
+[13:58:44] [Server thread/WARN]: Nobre_S moved too quickly! -1.7957588236531592,1.5800000131130219,14.391062036425183
+[14:12:24] [Async Chat Thread - #29/INFO]: <Fariaa> foste dormir?
+[14:12:29] [Async Chat Thread - #29/INFO]: <Kunkers> tou no nether
+[14:12:32] [Async Chat Thread - #29/INFO]: <Fariaa> oh
+[14:14:21] [Async Chat Thread - #30/INFO]: <Kunkers> can you tp me?
+[14:14:26] [Async Chat Thread - #30/INFO]: <Kunkers> im lost
+[14:14:29] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers Fariaa
+[14:14:29] [Server thread/INFO]: [Fariaa: Teleported Kunkers to Fariaa]
+[14:14:31] [Async Chat Thread - #30/INFO]: <Kunkers> ty
+[14:14:38] [Async Chat Thread - #30/INFO]: <Kunkers> water
+[14:26:15] [Async Chat Thread - #31/INFO]: <Kunkers> Z
+[14:26:17] [Async Chat Thread - #31/INFO]: <Kunkers> zZzZZ
+[14:27:21] [User Authenticator #47/INFO]: UUID of player Digger19 is 9677ca35-82d2-3914-83c2-86a250a87eb9
+[14:27:21] [Server thread/INFO]: Digger19[/89.154.169.171:52819] logged in with entity id 347153 at ([smpino]-1104.699999988079, -28.125, 51.30000001192093)
+[14:30:37] [Server thread/INFO]: Fariaa has completed the challenge [Bullseye]
+[14:30:54] [Async Chat Thread - #32/INFO]: <Kunkers> how do you do that
+[14:30:57] [Async Chat Thread - #32/INFO]: <Kunkers> en tentei
+[14:31:02] [Async Chat Thread - #32/INFO]: <Kunkers> mas n consegui
+[14:31:10] [Async Chat Thread - #32/INFO]: <Fariaa> shoot center of block
+[14:31:21] [Async Chat Thread - #32/INFO]: <Kunkers> man
+[14:31:25] [Async Chat Thread - #32/INFO]: <Kunkers> thats what i did
+[14:31:29] [Async Chat Thread - #32/INFO]: <Fariaa> want tp?
+[14:31:34] [Async Chat Thread - #32/INFO]: <Kunkers> yes
+[14:31:35] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers Fariaa
+[14:31:35] [Server thread/INFO]: [Fariaa: Teleported Kunkers to Fariaa]
+[14:31:44] [Async Chat Thread - #32/INFO]: <Digger19> da tp pra mi tbm
+[14:31:48] [Server thread/INFO]: Fariaa issued server command: /tp Digger19 Fariaa
+[14:31:48] [Server thread/INFO]: [Fariaa: Teleported Digger19 to Fariaa]
+[14:31:49] [Async Chat Thread - #32/INFO]: <Kunkers> nao tenho flechas kek
+[14:31:57] [Async Chat Thread - #32/INFO]: <Kunkers> damn
+[14:32:01] [Async Chat Thread - #32/INFO]: <Kunkers> acreditas em mim faria
+[14:32:02] [Async Chat Thread - #32/INFO]: <Digger19> tenho farm de skellies
+[14:32:07] [Async Chat Thread - #32/INFO]: <Fariaa> tenho inf
+[14:32:28] [Async Chat Thread - #32/INFO]: <Fariaa> man cant even see block
+[14:35:07] [Server thread/INFO]: Kunkers has completed the challenge [Bullseye]
+[14:38:06] [Server thread/INFO]: Digger19 has completed the challenge [Bullseye]
+[14:43:53] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[14:43:53] [Server thread/INFO]: Fariaa left the game
+[14:49:04] [Server thread/INFO]: Nobre_S lost connection: Disconnected
+[14:49:04] [Server thread/INFO]: Nobre_S left the game
+[14:58:00] [Server thread/INFO]: Digger19 has made the advancement [Eye Spy]
+[14:59:35] [Server thread/INFO]: Digger19 lost connection: Disconnected
+[14:59:35] [Server thread/INFO]: Digger19 left the game
+[15:05:36] [Async Chat Thread - #33/INFO]: <Kunkers> -158 -10
+[15:15:23] [Server thread/INFO]: Kunkers has made the advancement [Eye Spy]
+[15:20:25] [User Authenticator #48/INFO]: UUID of player _Moki is ae5c0ec8-f242-3425-ae53-7d28eee6783b
+[15:20:25] [Server thread/INFO]: _Moki[/94.62.177.219:58305] logged in with entity id 363468 at ([smpino]-1095.8468108892926, 64.0, 142.61908838999204)
+[15:21:18] [User Authenticator #49/INFO]: UUID of player Digger19 is 9677ca35-82d2-3914-83c2-86a250a87eb9
+[15:21:18] [Server thread/INFO]: Digger19[/89.154.169.171:56488] logged in with entity id 363751 at ([smpino_nether]-481.5566127078082, 59.0, -239.0296883372532)
+[15:21:56] [User Authenticator #50/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[15:21:56] [Server thread/INFO]: Fariaa[/89.115.202.128:55478] logged in with entity id 364223 at ([smpino]-2592.849985557495, 78.0, -828.9919823317992)
+[15:22:51] [Async Chat Thread - #34/INFO]: <_Moki> tpa
+[15:22:52] [Server thread/INFO]: Fariaa issued server command: /tp Fariaa Digger19
+[15:22:52] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Digger19]
+[15:22:53] [Async Chat Thread - #34/INFO]: <_Moki> crusade time
+[15:23:54] [Server thread/INFO]: Fariaa has completed the challenge [Return to Sender]
+[15:25:12] [Server thread/WARN]: Kunkers moved too quickly! -10.970483042468743,0.0,0.30103637911776104
+[15:27:15] [Server thread/WARN]: Kunkers moved too quickly! 13.559658363340617,-0.8783999538421625,0.058803619785081196
+[15:27:18] [Server thread/WARN]: Kunkers moved too quickly! 10.067421982728973,-0.12160004615783748,-0.036183342929291484
+[15:30:11] [Server thread/INFO]: _Moki lost connection: Disconnected
+[15:30:11] [Server thread/INFO]: _Moki left the game
+[15:31:43] [Server thread/WARN]: Fariaa moved too quickly! -0.0500088375314931,-0.12160004615783748,-12.835033694247471
+[15:31:43] [Server thread/WARN]: Digger19 moved too quickly! -7.215869576334626,3.1661092609382138,6.80579175659912
+[15:32:11] [User Authenticator #51/INFO]: UUID of player Nobre_S is 00433942-15b0-3384-852d-75ea1793efcd
+[15:32:12] [Server thread/INFO]: Nobre_S[/89.115.202.128:57268] logged in with entity id 369136 at ([smpino]-2545.0149424379574, 79.0, -768.3650558688819)
+[15:32:52] [Server thread/INFO]: Kunkers has made the advancement [Hot Stuff]
+[15:34:22] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[15:34:22] [Server thread/INFO]: Kunkers left the game
+[15:34:46] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S
+[15:34:46] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Nobre_S]
+[15:35:52] [User Authenticator #52/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[15:35:53] [Server thread/INFO]: Kunkers[/94.61.5.137:58642] logged in with entity id 371067 at ([smpino]-3819.293804771611, 31.0, -2350.509384686497)
+[15:36:57] [Server thread/INFO]: Nobre_S has made the advancement [Glow and Behold!]
+[15:38:34] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[15:38:34] [Server thread/INFO]: Kunkers left the game
+[15:38:38] [User Authenticator #53/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[15:38:39] [Server thread/INFO]: Kunkers[/94.61.5.137:49772] logged in with entity id 372342 at ([smpino_nether]-478.69999998807907, 61.0, -282.80507400517905)
+[15:39:04] [Server thread/INFO]: Fariaa issued server command: /tp Digger19
+[15:39:04] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Digger19]
+[15:39:18] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[15:39:18] [Server thread/INFO]: Kunkers left the game
+[15:47:57] [Server thread/INFO]: Fariaa issued server command: /tp Digger19
+[15:47:57] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Digger19]
+[15:56:10] [Server thread/WARN]: Fariaa moved too quickly! -0.9570820623839609,0.0,12.04576136576668
+[15:59:46] [User Authenticator #54/INFO]: UUID of player _Moki is ae5c0ec8-f242-3425-ae53-7d28eee6783b
+[15:59:46] [Server thread/INFO]: _Moki[/94.62.177.219:25135] logged in with entity id 383683 at ([smpino]-2599.3900012884455, 76.0, -849.320800806321)
+[16:05:54] [Server thread/INFO]: Fariaa issued server command: /tp Digger19
+[16:05:54] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Digger19]
+[16:08:05] [Server thread/INFO]: Nobre_S was shot by Skeleton
+[16:08:06] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S Fariaa
+[16:08:06] [Server thread/INFO]: [Fariaa: Teleported Nobre_S to Fariaa]
+[16:08:06] [Server thread/INFO]: Skipping update from removed player 'EntityPlayer['Nobre_S'/369136, l='ServerLevel[smpino]', x=-2589.33, y=78.00, z=-829.72, removed=KILLED](Nobre_S at -2589.332172795732,78.0,-829.7155882826677)'
+[16:11:37] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S
+[16:11:37] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Nobre_S]
+[16:13:27] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S
+[16:13:27] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Nobre_S]
+[16:14:29] [User Authenticator #55/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[16:14:29] [Server thread/INFO]: xSwtDx[/89.115.27.112:58870] logged in with entity id 394311 at ([smpino]-1238.1302663396034, 95.0, 951.9353490778783)
+[16:14:35] [Server thread/INFO]: Nobre_S was blown up by Creeper
+[16:14:48] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S Fariaa
+[16:14:48] [Server thread/INFO]: [Fariaa: Teleported Nobre_S to Fariaa]
+[16:15:39] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S
+[16:15:39] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Nobre_S]
+[16:17:41] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S
+[16:17:41] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Nobre_S]
+[16:18:37] [Server thread/INFO]: Fariaa issued server command: /gamemode spectator
+[16:18:37] [Server thread/INFO]: [Fariaa: Set own game mode to Spectator Mode]
+[16:19:36] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S Fariaa
+[16:19:36] [Server thread/INFO]: [Fariaa: Teleported Nobre_S to Fariaa]
+[16:19:54] [Async Chat Thread - #35/INFO]: <Fariaa> spectating sara
+[16:20:10] [Server thread/INFO]: Fariaa issued server command: /gamemode survival
+[16:20:10] [Server thread/INFO]: [Fariaa: Set own game mode to Survival Mode]
+[16:22:29] [Server thread/INFO]: _Moki lost connection: Disconnected
+[16:22:29] [Server thread/INFO]: _Moki left the game
+[16:26:14] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S
+[16:26:14] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Nobre_S]
+[16:26:33] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[16:26:33] [Server thread/INFO]: xSwtDx left the game
+[16:26:58] [User Authenticator #56/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[16:26:58] [Server thread/INFO]: Kunkers[/94.61.5.137:27255] logged in with entity id 401467 at ([smpino]-3817.9693137585377, 32.0, -2350.561967498602)
+[16:27:03] [Server thread/INFO]: Kunkers has made the advancement [The End?]
+[16:27:05] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[16:27:05] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[16:27:10] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[16:27:10] [Server thread/INFO]: Kunkers left the game
+[16:27:11] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers Fariaa
+[16:27:12] [Async Chat Thread - #36/INFO]: <Digger19> cunha why
+[16:27:16] [User Authenticator #57/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[16:27:16] [Server thread/INFO]: Kunkers[/94.61.5.137:60249] logged in with entity id 401810 at ([smpino_the_end]102.69790261316562, 49.0, -1.6723350761190172)
+[16:27:17] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers Fariaa
+[16:27:18] [Server thread/INFO]: [Fariaa: Teleported Kunkers to Fariaa]
+[16:28:46] [Async Chat Thread - #37/INFO]: <Fariaa> tpa
+[16:29:58] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers Digger19
+[16:29:58] [Server thread/INFO]: [Fariaa: Teleported Kunkers to Digger19]
+[16:30:15] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S
+[16:30:15] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Nobre_S]
+[16:31:30] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S
+[16:31:30] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Nobre_S]
+[16:32:50] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S
+[16:32:50] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Nobre_S]
+[16:33:24] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S
+[16:33:24] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Nobre_S]
+[16:35:54] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S Fariaa
+[16:35:54] [Server thread/INFO]: [Fariaa: Teleported Nobre_S to Fariaa]
+[16:35:58] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S Fariaa
+[16:35:58] [Server thread/INFO]: [Fariaa: Teleported Nobre_S to Fariaa]
+[16:36:21] [Server thread/INFO]: Fariaa issued server command: /tp Nobre_S Fariaa
+[16:36:21] [Server thread/INFO]: [Fariaa: Teleported Nobre_S to Fariaa]
+[16:38:51] [Server thread/WARN]: Horse (vehicle of Fariaa) moved wrongly! 0.25774853195525793
+[16:38:51] [Server thread/WARN]: Horse (vehicle of Fariaa) moved wrongly! 0.6618277343529826
+[16:39:18] [Server thread/WARN]: Horse (vehicle of Fariaa) moved wrongly! 0.27476721969253504
+[16:39:18] [Server thread/WARN]: Horse (vehicle of Fariaa) moved wrongly! 0.641584230227636
+[16:44:23] [Server thread/INFO]: Kunkers fell from a high place
+[16:44:31] [Async Chat Thread - #38/INFO]: <Digger19> gg exp
+[16:49:52] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[16:49:52] [Server thread/INFO]: Fariaa left the game
+[16:50:24] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[16:50:24] [Server thread/INFO]: Kunkers left the game
+[16:52:36] [Server thread/INFO]: Nobre_S lost connection: Disconnected
+[16:52:36] [Server thread/INFO]: Nobre_S left the game
+[17:28:35] [User Authenticator #58/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[17:28:35] [Server thread/INFO]: Fariaa[/89.115.202.128:19927] logged in with entity id 418661 at ([smpino]-2577.045857642684, 78.0, -825.5306072986584)
+[17:28:37] [Server thread/WARN]: Digger19 moved too quickly! 12.845467681588389,-0.8378585789729982,-1.4140198384874907
+[17:31:58] [Async Chat Thread - #39/INFO]: <Fariaa> tens 1 slime?
+[17:33:58] [User Authenticator #59/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[17:33:58] [Server thread/INFO]: xSwtDx[/89.115.27.112:61766] logged in with entity id 420782 at ([smpino]-2619.9287952297236, 80.0, -757.6644106780734)
+[17:40:10] [Server thread/INFO]: Fariaa issued server command: /tp Digger19
+[17:40:10] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Digger19]
+[17:40:31] [Async Chat Thread - #40/INFO]: <Fariaa> tens 1 slime?
+[17:41:13] [Async Chat Thread - #40/INFO]: <Digger19> n tinhas apanhado
+[17:41:15] [Async Chat Thread - #40/INFO]: <Fariaa> oh
+[17:47:26] [Server thread/INFO]: Fariaa issued server command: /tp xSwtDx Fariaaa
+[17:50:22] [Server thread/INFO]: xSwtDx has made the advancement [Those Were the Days]
+[17:55:30] [Server thread/INFO]: Fariaa issued server command: /tp xSwtDx Fariaa
+[17:55:30] [Server thread/INFO]: [Fariaa: Teleported xSwtDx to Fariaa]
+[17:57:07] [User Authenticator #60/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[17:57:07] [Server thread/INFO]: Kunkers[/94.61.5.137:50058] logged in with entity id 429323 at ([smpino]-1335.9990946461135, 98.0, -61.54092871790232)
+[17:57:30] [Server thread/WARN]: Digger19 moved too quickly! -7.080888473040204,-50.03325789181851,-7.533498121573814
+[17:57:30] [Server thread/WARN]: xSwtDx moved too quickly! 10.039116342743625,0.0,0.23131413899456277
+[17:58:54] [Server thread/WARN]: Kunkers moved too quickly! -5.083824337476699,-0.7967356006687112,13.775954796098269
+[17:59:10] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:sticky_piston
+[17:59:10] [Server thread/INFO]: [Fariaa: Gave 1 [Sticky Piston] to Fariaa]
+[17:59:29] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[17:59:29] [Server thread/INFO]: xSwtDx left the game
+[18:02:26] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[18:02:26] [Server thread/INFO]: Fariaa left the game
+[18:02:32] [Async Chat Thread - #41/INFO]: <Kunkers> dead server
+[18:09:48] [Async Chat Thread - #42/INFO]: <Digger19> -1125/-23/93
+[18:34:28] [User Authenticator #61/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[18:34:28] [Server thread/INFO]: Fariaa[/89.115.202.128:20651] logged in with entity id 440651 at ([smpino]-2581.4573476476503, 78.0, -833.8726452311865)
+[18:34:37] [Server thread/INFO]: Digger19 has made the advancement [Glow and Behold!]
+[18:36:55] [Async Chat Thread - #43/INFO]: <Kunkers> sleep
+[18:48:24] [Async Chat Thread - #44/INFO]: <Kunkers> sleep
+[19:02:04] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:repeater
+[19:02:04] [Server thread/INFO]: [Fariaa: Gave 1 [Redstone Repeater] to Fariaa]
+[19:02:26] [Async Chat Thread - #45/INFO]: <Kunkers> sleep
+[19:02:31] [Async Chat Thread - #45/INFO]: <Digger19> shut
+[19:07:19] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:repeater
+[19:07:19] [Server thread/INFO]: [Fariaa: Gave 1 [Redstone Repeater] to Fariaa]
+[19:07:38] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:repeater
+[19:07:38] [Server thread/INFO]: [Fariaa: Gave 1 [Redstone Repeater] to Fariaa]
+[19:08:09] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:repeater
+[19:08:09] [Server thread/INFO]: [Fariaa: Gave 1 [Redstone Repeater] to Fariaa]
+[19:09:09] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:repeater
+[19:09:09] [Server thread/INFO]: [Fariaa: Gave 1 [Redstone Repeater] to Fariaa]
+[19:09:09] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:repeater
+[19:09:09] [Server thread/INFO]: [Fariaa: Gave 1 [Redstone Repeater] to Fariaa]
+[19:12:14] [Async Chat Thread - #46/INFO]: <Digger19> faria imma get some of ur lapis lazuli ok? ok thx babe
+[19:14:00] [Async Chat Thread - #47/INFO]: <Kunkers> sleep
+[19:27:54] [Server thread/INFO]: Kunkers was slain by Zombie
+[19:28:06] [Async Chat Thread - #48/INFO]: <Fariaa> quite poggerw
+[19:29:14] [Async Chat Thread - #49/INFO]: <Kunkers> sleep
+[19:38:46] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[19:38:46] [Server thread/INFO]: Kunkers left the game
+[20:20:10] [User Authenticator #62/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[20:20:10] [Server thread/INFO]: Kunkers[/94.61.5.137:54304] logged in with entity id 478093 at ([smpino]-1333.1801239302083, 108.0, -87.82180442018917)
+[20:21:06] [Async Chat Thread - #50/INFO]: <Kunkers> sleep
+[20:35:23] [Async Chat Thread - #51/INFO]: <Kunkers> sleep
+[20:38:56] [Server thread/INFO]: Fariaa issued server command: /tp Digger19
+[20:38:56] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Digger19]
+[20:49:30] [Async Chat Thread - #52/INFO]: <Kunkers> sleep
+[20:49:47] [Async Chat Thread - #52/INFO]: <Kunkers> sleep
+[20:49:55] [Async Chat Thread - #52/INFO]: <Kunkers> tavas na cama
+[20:49:57] [Async Chat Thread - #52/INFO]: <Kunkers> dafuq
+[20:49:59] [Async Chat Thread - #52/INFO]: <Kunkers> why you leave
+[20:50:03] [Async Chat Thread - #52/INFO]: <Fariaa> ?
+[20:50:11] [Async Chat Thread - #52/INFO]: <Fariaa> bruh
+[20:50:12] [Async Chat Thread - #52/INFO]: <Kunkers> ??
+[20:50:17] [Async Chat Thread - #52/INFO]: <Fariaa> pensava q ja tava
+[20:50:19] [Async Chat Thread - #52/INFO]: <Fariaa> sai sem querer
+[21:02:04] [Async Chat Thread - #53/INFO]: <Kunkers> sleep
+[21:11:44] [Async Chat Thread - #54/INFO]: <Fariaa> pires
+[21:11:51] [Async Chat Thread - #54/INFO]: <Kunkers> diz
+[21:16:55] [User Authenticator #63/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[21:16:55] [Server thread/INFO]: Fariaa lost connection: You logged in from another location
+[21:16:55] [Server thread/INFO]: Fariaa left the game
+[21:16:55] [Server thread/INFO]: Fariaa[/89.115.202.128:23153] logged in with entity id 502006 at ([smpino]-2576.2203146917295, 66.0, -857.0770440138027)
+[21:32:42] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[21:32:42] [Server thread/INFO]: Fariaa left the game
+[22:03:07] [User Authenticator #64/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[22:03:07] [Server thread/INFO]: Fariaa[/89.115.202.128:53658] logged in with entity id 515280 at ([smpino]-2581.1013385363844, 70.5, -840.9222269478129)
+[22:09:04] [Async Chat Thread - #55/INFO]: <Kunkers> sleep
+[22:13:08] [User Authenticator #65/INFO]: UUID of player _Moki is ae5c0ec8-f242-3425-ae53-7d28eee6783b
+[22:13:08] [Server thread/INFO]: _Moki[/94.62.177.219:57412] logged in with entity id 519107 at ([smpino]-1130.6729557989095, 68.0, 122.16226776153029)
+[22:17:46] [Server thread/WARN]: Digger19 moved too quickly! 7.814115577444227,-2.203264399331289,-6.210839143116914
+[22:17:46] [Server thread/INFO]: _Moki has made the advancement [Eye Spy]
+[22:32:08] [Server thread/INFO]: _Moki lost connection: Disconnected
+[22:32:08] [Server thread/INFO]: _Moki left the game
+[22:51:04] [Server thread/INFO]: Fariaa issued server command: /tp Digger19
+[22:51:04] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Digger19]
+[22:51:06] [Server thread/INFO]: Digger19 has made the advancement [The End?]
+[22:51:10] [Server thread/INFO]: Fariaa issued server command: /tp Digger19 Fariaa
+[22:51:10] [Server thread/INFO]: [Fariaa: Teleported Digger19 to Fariaa]
+[22:51:14] [Server thread/INFO]: Fariaa issued server command: /tp Digger19 Fariaa
+[22:51:14] [Server thread/INFO]: [Fariaa: Teleported Digger19 to Fariaa]
+[22:51:23] [Server thread/INFO]: Fariaa has made the advancement [The End?]
+[22:51:26] [Server thread/INFO]: Fariaa issued server command: /tp Fariaa Digger19
+[22:51:26] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Digger19]
+[22:51:58] [Server thread/INFO]: Fariaa issued server command: /tp Digger19 Fariaa
+[22:51:58] [Server thread/INFO]: [Fariaa: Teleported Digger19 to Fariaa]
+[22:52:00] [User Authenticator #66/INFO]: UUID of player _Moki is ae5c0ec8-f242-3425-ae53-7d28eee6783b
+[22:52:00] [Server thread/INFO]: _Moki[/94.62.177.219:62677] logged in with entity id 536172 at ([smpino]-3820.036463888215, 30.5, -2349.8585269564896)
+[22:52:10] [Server thread/INFO]: _Moki has made the advancement [The End?]
+[22:52:45] [Server thread/INFO]: Digger19 has reached the goal [You Need a Mint]
+[22:52:45] [Server thread/INFO]: Kunkers has reached the goal [You Need a Mint]
+[22:53:00] [Server thread/INFO]: Fariaa has reached the goal [You Need a Mint]
+[22:55:38] [Server thread/INFO]: Kunkers has made the advancement [Free the End]
+[22:55:47] [User Authenticator #67/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[22:55:47] [Server thread/INFO]: xSwtDx[/89.115.27.112:51158] logged in with entity id 536627 at ([smpino]-1237.2493818799132, 95.0, 953.4925147038922)
+[22:56:08] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers
+[22:56:08] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Kunkers]
+[22:56:21] [Server thread/INFO]: Digger19 has reached the goal [The Next Generation]
+[22:56:28] [Server thread/INFO]: Fariaa has reached the goal [The Next Generation]
+[22:56:30] [Server thread/INFO]: Kunkers has reached the goal [The Next Generation]
+[22:57:25] [Server thread/INFO]: Fariaa has completed the challenge [Cover Me in Debris]
+[22:58:08] [Server thread/INFO]: Fariaa issued server command: /tp xSwtDx Fariaa
+[22:58:08] [Server thread/INFO]: xSwtDx has made the advancement [The End?]
+[22:58:08] [Server thread/INFO]: [Fariaa: Teleported xSwtDx to Fariaa]
+[22:58:14] [Async Chat Thread - #56/INFO]: <_Moki> tp me
+[22:58:18] [Server thread/INFO]: Fariaa issued server command: /tp _Moki Fariaa
+[22:58:18] [Server thread/INFO]: [Fariaa: Teleported _Moki to Fariaa]
+[22:58:35] [Server thread/INFO]: _Moki has reached the goal [The Next Generation]
+[22:58:40] [Server thread/INFO]: xSwtDx has reached the goal [The Next Generation]
+[22:58:56] [Server thread/INFO]: _Moki has made the advancement [Ice Bucket Challenge]
+[23:01:07] [Server thread/INFO]: Kunkers was shot by Digger19
+[23:01:14] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers Fariaa
+[23:01:14] [Server thread/INFO]: [Fariaa: Teleported Kunkers to Fariaa]
+[23:01:53] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers Fariaa
+[23:01:53] [Server thread/INFO]: [Fariaa: Teleported Kunkers to Fariaa]
+[23:03:06] [Server thread/INFO]: Kunkers has made the advancement [Remote Getaway]
+[23:03:39] [Server thread/INFO]: _Moki has made the advancement [Remote Getaway]
+[23:04:55] [Server thread/INFO]: xSwtDx has made the advancement [Remote Getaway]
+[23:04:58] [Server thread/INFO]: Digger19 has made the advancement [Remote Getaway]
+[23:05:47] [Async Chat Thread - #57/INFO]: <xSwtDx> -310 ; 1097
+[23:06:44] [Server thread/INFO]: Fariaa issued server command: /tp Digger19
+[23:06:44] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Digger19]
+[23:06:49] [Server thread/INFO]: xSwtDx was slain by Enderman
+[23:07:14] [Server thread/INFO]: Fariaa has made the advancement [The City at the End of the Game]
+[23:07:49] [Server thread/INFO]: Digger19 has made the advancement [The City at the End of the Game]
+[23:07:59] [Server thread/WARN]: Fariaa moved too quickly! -5.329883388377652,-28.0,0.9401407592140458
+[23:09:04] [Server thread/WARN]: Fariaa moved too quickly! -3.6199872577400356,-16.0,-4.3466887468064215
+[23:09:06] [Server thread/WARN]: Fariaa moved too quickly! 5.412880797150024,-12.0,-1.8429318290536685
+[23:09:23] [Server thread/WARN]: Fariaa moved too quickly! 2.4988550239796723,-12.0,-7.7514971694020005
+[23:12:10] [Server thread/INFO]: _Moki has made the advancement [The City at the End of the Game]
+[23:12:51] [Server thread/INFO]: Digger19 fell out of the world
+[23:13:02] [Server thread/INFO]: Digger19 lost connection: Disconnected
+[23:13:02] [Server thread/INFO]: Digger19 left the game
+[23:13:29] [Server thread/INFO]: _Moki has reached the goal [Sky's the Limit]
+[23:13:40] [Server thread/WARN]: Fariaa moved too quickly! 6.254308055730348,-49.0,5.009439921855574
+[23:14:16] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[23:14:16] [Server thread/INFO]: xSwtDx left the game
+[23:14:34] [Server thread/INFO]: _Moki has made the advancement [Local Brewery]
+[23:17:42] [Server thread/WARN]: Fariaa moved too quickly! 0.4824976432735184,-84.0,7.541969808803742
+[23:17:42] [Server thread/INFO]: Fariaa has completed the challenge [Great View From Up Here]
+[23:17:51] [Server thread/WARN]: Fariaa moved too quickly! 6.6900186172492795,-8.0,-1.597149229753768
+[23:22:17] [Server thread/INFO]: _Moki was slain by Enderman
+[23:22:34] [Server thread/INFO]: Fariaa issued server command: /tp _Moki Fariaa
+[23:22:34] [Server thread/INFO]: [Fariaa: Teleported _Moki to Fariaa]
+[23:25:13] [Server thread/INFO]: Fariaa has made the advancement [Remote Getaway]
+[23:25:21] [Server thread/WARN]: _Moki moved too quickly! 6.381662636157472,-1.0,7.648532030805882
+[23:27:52] [Server thread/INFO]: Fariaa issued server command: /tp _Moki
+[23:27:52] [Server thread/INFO]: [Fariaa: Teleported Fariaa to _Moki]
+[23:27:54] [Server thread/INFO]: Fariaa issued server command: /tp _Moki
+[23:27:54] [Server thread/INFO]: [Fariaa: Teleported Fariaa to _Moki]
+[23:27:54] [Server thread/INFO]: Fariaa fell from a high place
+[23:33:34] [Async Chat Thread - #58/INFO]: <Kunkers> -801 2976
+[23:35:28] [Server thread/WARN]: _Moki moved too quickly! 5.504052442246575,-40.0,3.8584847112263105
+[23:38:10] [Server thread/WARN]: Kunkers moved too quickly! -6.611676580493992,-2.0,-7.8288533324130185
+[23:41:04] [Async Chat Thread - #59/INFO]: <Fariaa> n tem kekw
+[23:41:22] [Server thread/INFO]: Kunkers has made the advancement [The City at the End of the Game]
+[23:43:07] [Server thread/WARN]: Kunkers moved too quickly! -4.283720131148954,-20.0,-3.247526882110833
+[23:45:20] [Server thread/WARN]: Kunkers moved too quickly! 3.7021355657890354,-12.0,5.210366145410262
+[23:47:54] [Server thread/INFO]: _Moki lost connection: Disconnected
+[23:47:54] [Server thread/INFO]: _Moki left the game
+[23:49:26] [Async Chat Thread - #60/INFO]: <Kunkers> -801 2976
+[23:51:14] [Server thread/WARN]: Kunkers moved too quickly! 6.946959706895086,-3.0,7.446068648712753
+[23:54:44] [Async Chat Thread - #61/INFO]: <Kunkers> faria
+[23:54:47] [Server thread/INFO]: Fariaa issued server command: /seed
+[23:54:50] [Server thread/INFO]: Kunkers issued server command: /seed
+[23:54:52] [Server thread/INFO]: Kunkers issued server command: /seed
+[00:05:53] [Server thread/WARN]: Kunkers moved too quickly! -7.119553736844409,-8.0,-0.8288654434527416
+[00:11:33] [Server thread/INFO]: Kunkers has reached the goal [Sky's the Limit]
+[00:11:53] [Server thread/WARN]: Kunkers moved too quickly! -6.261722410116363,-49.0,2.4486728930864956
+[00:13:25] [Server thread/WARN]: Kunkers moved too quickly! 7.864096360759959,-10.0,4.190204484111746
+[00:14:56] [Server thread/INFO]: Kunkers fell from a high place
+[00:16:46] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers
+[00:16:46] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Kunkers]
+[00:17:35] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers
+[00:17:35] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Kunkers]
+[00:18:13] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers
+[00:18:13] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Kunkers]
+[00:18:59] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers
+[00:18:59] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Kunkers]
+[00:20:36] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers -2500 70 3900
+[00:20:36] [Server thread/INFO]: [Fariaa: Teleported Kunkers to -2499.500000, 70.000000, 3900.500000]
+[00:21:27] [Server thread/INFO]: Kunkers was slain by Shulker
+[00:21:33] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers Fariaa
+[00:21:33] [Server thread/INFO]: [Fariaa: Teleported Kunkers to Fariaa]
+[00:21:34] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers -2500 70 3900
+[00:21:35] [Server thread/INFO]: [Fariaa: Teleported Kunkers to -2499.500000, 70.000000, 3900.500000]
+[00:22:53] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers
+[00:22:53] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Kunkers]
+[00:23:01] [Server thread/WARN]: Fariaa moved too quickly! 7.695464371295657,-20.0,2.251309649502673
+[00:24:20] [Server thread/INFO]: Fariaa was slain by Enderman
+[00:32:02] [Async Chat Thread - #62/INFO]: <Fariaa> espetar no cu
+[00:33:06] [Async Chat Thread - #63/INFO]: <Fariaa> yes
+[00:36:54] [Server thread/INFO]: Kunkers fell from a high place
+[00:37:38] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers Fariaa
+[00:37:38] [Server thread/INFO]: [Fariaa: Teleported Kunkers to Fariaa]
+[00:37:51] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers Fariaa
+[00:37:51] [Server thread/INFO]: [Fariaa: Teleported Kunkers to Fariaa]
+[00:39:12] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:ender_pearl
+[00:39:12] [Server thread/INFO]: [Fariaa: Gave 1 [Ender Pearl] to Fariaa]
+[00:39:24] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers -3500 80 3900
+[00:39:25] [Server thread/INFO]: [Fariaa: Teleported Kunkers to -3499.500000, 80.000000, 3900.500000]
+[00:39:37] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers -3500 115 3900
+[00:39:37] [Server thread/INFO]: [Fariaa: Teleported Kunkers to -3499.500000, 115.000000, 3900.500000]
+[00:39:38] [Server thread/INFO]: Kunkers fell from a high place
+[00:39:42] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers Fariaa
+[00:39:42] [Server thread/INFO]: [Fariaa: Teleported Kunkers to Fariaa]
+[00:40:10] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers -3534 114 3895
+[00:40:11] [Server thread/INFO]: [Fariaa: Teleported Kunkers to -3533.500000, 114.000000, 3895.500000]
+[00:40:24] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers Fariaa
+[00:40:24] [Server thread/INFO]: [Fariaa: Teleported Kunkers to Fariaa]
+[00:40:31] [Server thread/INFO]: Fariaa has reached the goal [Sky's the Limit]
+[00:40:41] [Server thread/INFO]: Skipping update from removed player 'EntityPlayer['Kunkers'/478093, l='ServerLevel[smpino_the_end]', x=1.89, y=61.68, z=0.53, removed=CHANGED_DIMENSION](Kunkers at 1.8867794391726236,61.67647087614427,0.529103021326963)'
+[00:41:35] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[00:41:35] [Server thread/INFO]: Fariaa left the game
+[00:45:20] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[00:45:20] [Server thread/INFO]: Kunkers left the game
+[01:14:11] [User Authenticator #68/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[01:14:11] [Server thread/INFO]: Kunkers[/94.61.5.137:57812] logged in with entity id 575596 at ([smpino]-1332.3488740670755, 108.0, -86.02870245938804)
+[02:26:23] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[02:26:23] [Server thread/INFO]: Kunkers left the game
+[11:37:02] [User Authenticator #69/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[11:37:03] [Server thread/INFO]: Kunkers[/94.61.5.137:36157] logged in with entity id 583782 at ([smpino]-1294.70861368853, 109.9375, -147.19641024412783)
+[12:39:40] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[12:39:40] [Server thread/INFO]: Kunkers left the game
+[16:19:53] [User Authenticator #70/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[16:19:53] [Server thread/INFO]: Kunkers[/94.61.5.137:60978] logged in with entity id 594160 at ([smpino]-1335.6026445564105, 98.0, -55.93372967253694)
+[17:01:45] [User Authenticator #71/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[17:01:45] [Server thread/INFO]: xSwtDx[/89.115.27.112:51018] logged in with entity id 601474 at ([smpino]-1234.9037945738673, 94.0, 946.4825754936246)
+[17:03:00] [Async Chat Thread - #64/INFO]: <Kunkers> hello good sir
+[17:03:41] [Async Chat Thread - #64/INFO]: <xSwtDx> good afternoon sire
+[17:18:35] [User Authenticator #72/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[17:18:35] [Server thread/INFO]: Fariaa[/89.115.202.128:30079] logged in with entity id 606266 at ([smpino]-2625.300000011921, 76.0, -799.6999999880791)
+[17:19:37] [Server thread/WARN]: Kunkers moved too quickly! -7.13295944687178,-3.1661092609382138,-16.905887300453514
+[17:41:23] [User Authenticator #73/INFO]: UUID of player Krix2g is e755e9ff-c888-3a3c-bb84-bca624ee043b
+[17:41:23] [Server thread/INFO]: Krix2g[/178.166.53.145:5253] logged in with entity id 616961 at ([smpino]-1339.4613307168063, 144.0, -471.9901057395666)
+[17:47:55] [Server thread/INFO]: xSwtDx was shot by Skeleton
+[17:59:43] [Server thread/INFO]: Krix2g lost connection: Timed out
+[17:59:43] [Server thread/INFO]: Krix2g left the game
+[18:04:10] [User Authenticator #74/INFO]: UUID of player Krix2g is e755e9ff-c888-3a3c-bb84-bca624ee043b
+[18:04:11] [Server thread/INFO]: Krix2g[/178.166.53.145:54570] logged in with entity id 631053 at ([smpino]-1339.236621660281, 144.0, -455.0066897673862)
+[18:30:29] [Server thread/INFO]: Krix2g lost connection: Timed out
+[18:30:29] [Server thread/INFO]: Krix2g left the game
+[18:30:43] [User Authenticator #75/INFO]: UUID of player Krix2g is e755e9ff-c888-3a3c-bb84-bca624ee043b
+[18:30:43] [Server thread/INFO]: Krix2g[/178.166.53.145:50840] logged in with entity id 644515 at ([smpino]-1347.0568180382672, 144.0, -459.7264581346305)
+[18:30:45] [Server thread/WARN]: Fariaa moved too quickly! -10.433275554225645,0.0,-0.029460744950654316
+[18:33:02] [Server thread/INFO]: Kunkers fell out of the world
+[18:33:23] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers Fariaa
+[18:33:23] [Server thread/INFO]: [Fariaa: Teleported Kunkers to Fariaa]
+[18:33:39] [Async Chat Thread - #65/INFO]: <Fariaa> yes
+[18:33:42] [Async Chat Thread - #65/INFO]: <Fariaa> 3 stack
+[18:35:06] [Server thread/WARN]: Krix2g moved too quickly! -12.261905482024105,0.0,-3.49588423915732
+[18:37:28] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers Fariaa
+[18:37:28] [Server thread/INFO]: [Fariaa: Teleported Kunkers to Fariaa]
+[18:42:30] [Server thread/INFO]: Krix2g lost connection: Disconnected
+[18:42:30] [Server thread/INFO]: Krix2g left the game
+[18:46:48] [Server thread/WARN]: Fariaa moved too quickly! -9.739396365619541,-0.3245612398704907,2.6589466929661967
+[18:51:58] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[18:51:58] [Server thread/INFO]: xSwtDx left the game
+[18:52:51] [Server thread/INFO]: Skipping update from removed player 'EntityPlayer['Kunkers'/594160, l='ServerLevel[smpino_the_end]', x=1.32, y=61.68, z=-1.24, removed=CHANGED_DIMENSION](Kunkers at 1.3205704992265628,61.67647087614427,-1.239326564840399)'
+[18:54:40] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[18:54:40] [Server thread/INFO]: Fariaa left the game
+[19:07:21] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[19:07:21] [Server thread/INFO]: Kunkers left the game
+[19:45:04] [User Authenticator #76/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[19:45:04] [Server thread/INFO]: Kunkers[/94.61.5.137:43917] logged in with entity id 663731 at ([smpino]-1333.224099158559, 91.0, -151.6285878510173)
+[20:23:28] [User Authenticator #77/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[20:23:28] [Server thread/INFO]: xSwtDx[/89.115.27.112:16721] logged in with entity id 670162 at ([smpino]-1236.7826560650908, 95.0, 953.4439309759251)
+[20:31:49] [Server thread/WARN]: Kunkers moved too quickly! -11.616545167086315,0.6306263397304974,5.105178475535723
+[20:39:17] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[20:39:17] [Server thread/INFO]: xSwtDx left the game
+[20:47:31] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[20:47:31] [Server thread/INFO]: Kunkers left the game
+[21:25:10] [User Authenticator #78/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[21:25:10] [Server thread/INFO]: xSwtDx[/89.115.27.112:16935] logged in with entity id 677554 at ([smpino]-1254.3629368269299, 96.5, 962.536939385423)
+[21:26:54] [User Authenticator #79/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[21:26:54] [Server thread/INFO]: Kunkers[/94.61.5.137:52586] logged in with entity id 677985 at ([smpino]-1333.1953454128575, 91.0, -152.06339853543906)
+[21:27:43] [Async Chat Thread - #66/INFO]: <Kunkers> fdp
+[21:30:19] [User Authenticator #80/INFO]: UUID of player Krix2g is e755e9ff-c888-3a3c-bb84-bca624ee043b
+[21:30:19] [Server thread/INFO]: Krix2g[/178.166.53.145:34643] logged in with entity id 679401 at ([smpino]-1346.2092538860104, 144.0, -460.5980833260258)
+[21:49:50] [Server thread/INFO]: xSwtDx was blown up by Creeper
+[21:53:28] [User Authenticator #81/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[21:53:28] [Server thread/INFO]: Fariaa[/89.115.202.128:36125] logged in with entity id 701531 at ([smpino]-2580.7607032826972, 66.0, -853.8574970210336)
+[21:53:31] [Server thread/WARN]: Kunkers moved too quickly! 11.829037466818704,2.7222224674845137,4.612099170744841
+[21:53:31] [Server thread/WARN]: xSwtDx moved too quickly! -0.02420213739924293,2.1992000865937342,-16.42519602849586
+[21:55:28] [Async Chat Thread - #67/INFO]: <Kunkers> faria can you tp me pls
+[21:58:31] [Async Chat Thread - #68/INFO]: <xSwtDx> tens oak
+[21:58:32] [Async Chat Thread - #68/INFO]: <xSwtDx> ?
+[21:58:39] [Async Chat Thread - #68/INFO]: <Fariaa> yes
+[21:58:42] [Async Chat Thread - #68/INFO]: <Fariaa> 3 stacks of log
+[21:58:46] [Async Chat Thread - #68/INFO]: <xSwtDx> can i has some
+[22:01:06] [Async Chat Thread - #69/INFO]: <Kunkers> faria??
+[22:01:07] [Async Chat Thread - #69/INFO]: <xSwtDx> 32log?
+[22:01:55] [Async Chat Thread - #69/INFO]: <Kunkers> faria can you tp me pls
+[22:02:11] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers Fariaa
+[22:02:11] [Server thread/INFO]: [Fariaa: Teleported Kunkers to Fariaa]
+[22:02:41] [Server thread/WARN]: Kunkers moved too quickly! -15.213011467518754,-2.495200877005928,-2.2191515685761942
+[22:06:25] [Server thread/INFO]: Krix2g has reached the goal [Sky's the Limit]
+[22:06:31] [Async Chat Thread - #70/INFO]: <Krix2g> stop dupping cheater
+[22:06:35] [Async Chat Thread - #70/INFO]: <Kunkers> shhhh
+[22:08:43] [Server thread/INFO]: xSwtDx has reached the goal [Sky's the Limit]
+[22:08:46] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[22:08:46] [Server thread/INFO]: Kunkers left the game
+[22:09:15] [Server thread/INFO]: Krix2g lost connection: Disconnected
+[22:09:15] [Server thread/INFO]: Krix2g left the game
+[22:17:50] [Server thread/INFO]: xSwtDx was slain by Zombie
+[22:23:19] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[22:23:19] [Server thread/INFO]: xSwtDx left the game
+[23:33:16] [User Authenticator #82/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[23:33:17] [Server thread/INFO]: Kunkers[/94.61.5.137:64286] logged in with entity id 728862 at ([smpino]-1210.3027686624637, 70.0, 995.9508995453074)
+[23:40:55] [Server thread/INFO]: Kunkers fell out of the world
+[23:41:18] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[23:41:18] [Server thread/INFO]: Kunkers left the game
+[23:43:36] [User Authenticator #83/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[23:43:36] [Server thread/INFO]: Kunkers[/94.61.5.137:57834] logged in with entity id 737288 at ([smpino]-1337.6751628245377, 144.0, -475.02624266046286)
+[23:44:22] [Async Chat Thread - #71/INFO]: <Kunkers> damn
+[00:10:27] [Async Chat Thread - #72/INFO]: <Kunkers> faria can you tp me pls»
+[00:12:56] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers Fariaa
+[00:12:56] [Server thread/INFO]: [Fariaa: Teleported Kunkers to Fariaa]
+[00:12:59] [Async Chat Thread - #73/INFO]: <Kunkers> ty
+[00:32:39] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[00:32:39] [Server thread/INFO]: Kunkers left the game
+[00:50:35] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[00:50:35] [Server thread/INFO]: Fariaa left the game
+[08:50:37] [User Authenticator #84/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[08:50:37] [Server thread/INFO]: xSwtDx[/89.115.27.112:50410] logged in with entity id 757679 at ([smpino]-1245.4475056332155, 70.0, 985.4990882476262)
+[08:58:48] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[08:58:48] [Server thread/INFO]: xSwtDx left the game
+[10:07:33] [User Authenticator #85/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[10:07:33] [Server thread/INFO]: Kunkers[/94.61.5.137:51399] logged in with entity id 759101 at ([smpino]-1334.6382789071465, 98.0, -70.45909136378239)
+[10:59:52] [Server thread/INFO]: Kunkers was slain by Enderman
+[11:07:16] [User Authenticator #86/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[11:07:16] [Server thread/INFO]: xSwtDx[/89.115.27.112:55876] logged in with entity id 780658 at ([smpino]-1247.2154383783743, 70.0, 986.1620574364898)
+[11:07:33] [Async Chat Thread - #74/INFO]: <xSwtDx> yo
+[11:07:36] [Async Chat Thread - #74/INFO]: <Kunkers> yo
+[11:28:29] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[11:28:29] [Server thread/INFO]: xSwtDx left the game
+[11:31:43] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[11:31:43] [Server thread/INFO]: Kunkers left the game
+[12:52:32] [User Authenticator #87/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[12:52:32] [Server thread/INFO]: Kunkers[/94.61.5.137:58202] logged in with entity id 788690 at ([smpino]-1335.7781024133724, 98.0, -53.87659279073979)
+[13:21:56] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[13:21:56] [Server thread/INFO]: Kunkers left the game
+[13:49:30] [User Authenticator #88/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[13:49:30] [Server thread/INFO]: Kunkers[/94.61.5.137:59148] logged in with entity id 803560 at ([smpino]-1333.7103275857282, 98.0, -69.04404435808334)
+[14:08:22] [User Authenticator #89/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[14:08:22] [Server thread/INFO]: Fariaa[/89.115.202.128:62748] logged in with entity id 810604 at ([smpino]-2580.768050315265, 66.0, -846.3668023845933)
+[14:08:30] [Async Chat Thread - #75/INFO]: <Fariaa> Ola
+[14:08:41] [Async Chat Thread - #75/INFO]: <Kunkers> Olá colega, tudo bem contigo?
+[14:08:58] [Async Chat Thread - #75/INFO]: <Fariaa> Está tudo obrigado pela pergunta, e contigo está tudo bem?
+[14:09:36] [Async Chat Thread - #75/INFO]: <Kunkers> Vai-se andando companheiro ah ah ah, não é? E contigo?
+[14:11:09] [Async Chat Thread - #76/INFO]: <Fariaa> Está tudo obrigado pela pergunta, e contigo está tudo bem?
+[14:11:25] [Async Chat Thread - #76/INFO]: <Fariaa> por acaso não tens 54 slime balls?
+[14:11:29] [Async Chat Thread - #76/INFO]: <Kunkers> nao
+[14:11:34] [Async Chat Thread - #76/INFO]: <Fariaa> ora bolas colega
+[14:11:40] [Async Chat Thread - #76/INFO]: <Fariaa> sabes onde posso encontrá-las?
+[14:11:55] [Async Chat Thread - #76/INFO]: <Kunkers> hmmmm
+[14:12:00] [Async Chat Thread - #76/INFO]: <Kunkers> far away
+[14:12:05] [Async Chat Thread - #76/INFO]: <Kunkers> thats all i know
+[14:13:34] [Async Chat Thread - #77/INFO]: <Fariaa> yo man stealing my gunpowder
+[14:13:39] [Async Chat Thread - #77/INFO]: <Kunkers> shhhhh
+[14:15:37] [Server thread/INFO]: Fariaa issued server command: /locatebiome
+[14:15:39] [Server thread/INFO]: Fariaa issued server command: /locatebiome minecraft:swamp
+[14:21:19] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers
+[14:21:19] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Kunkers]
+[14:32:18] [Async Chat Thread - #78/INFO]: <Kunkers> watcha you doing?
+[14:32:20] [Async Chat Thread - #78/INFO]: <Fariaa> no my slimes
+[14:32:28] [Async Chat Thread - #78/INFO]: <Kunkers> woah
+[14:32:32] [Async Chat Thread - #78/INFO]: <Kunkers> that was weird
+[14:32:45] [Async Chat Thread - #78/INFO]: <Fariaa> im mining slime chunk
+[14:32:54] [Async Chat Thread - #78/INFO]: <Kunkers> good luck
+[14:33:08] [Async Chat Thread - #78/INFO]: <Kunkers> y below 0
+[14:39:03] [Server thread/INFO]: Fariaa issued server command: /give Fariaa tnt 64
+[14:39:03] [Server thread/INFO]: [Fariaa: Gave 64 [TNT] to Fariaa]
+[14:41:50] [Server thread/INFO]: Fariaa issued server command: /give Fariaa tnt 64
+[14:41:50] [Server thread/INFO]: [Fariaa: Gave 64 [TNT] to Fariaa]
+[14:42:49] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:redstone_torch 1
+[14:42:49] [Server thread/INFO]: [Fariaa: Gave 1 [Redstone Torch] to Fariaa]
+[14:43:02] [Async Chat Thread - #79/INFO]: <Fariaa> lag
+[14:44:58] [Server thread/INFO]: Fariaa issued server command: /give Fariaa tnt 64
+[14:44:58] [Server thread/INFO]: [Fariaa: Gave 64 [TNT] to Fariaa]
+[14:45:40] [Server thread/INFO]: Fariaa issued server command: /give Fariaa tnt 64
+[14:45:40] [Server thread/INFO]: [Fariaa: Gave 64 [TNT] to Fariaa]
+[14:47:12] [Server thread/INFO]: Fariaa issued server command: /give Fariaa tnt 64
+[14:47:12] [Server thread/INFO]: [Fariaa: Gave 64 [TNT] to Fariaa]
+[14:47:44] [Server thread/INFO]: Fariaa issued server command: /give Fariaa tnt 64
+[14:47:44] [Server thread/INFO]: [Fariaa: Gave 64 [TNT] to Fariaa]
+[14:48:12] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:redstone_torch 1
+[14:48:12] [Server thread/INFO]: [Fariaa: Gave 1 [Redstone Torch] to Fariaa]
+[14:48:15] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:redstone_torch 1
+[14:48:15] [Server thread/INFO]: [Fariaa: Gave 1 [Redstone Torch] to Fariaa]
+[14:50:41] [Async Chat Thread - #80/INFO]: <Fariaa> mining chunks getting me the BAG
+[14:50:44] [Async Chat Thread - #80/INFO]: <Fariaa> 35 diamonds
+[14:50:49] [Async Chat Thread - #80/INFO]: <Kunkers> pog
+[14:59:35] [Server thread/INFO]: Fariaa issued server command: /give Fariaa tnt 64
+[14:59:35] [Server thread/INFO]: [Fariaa: Gave 64 [TNT] to Fariaa]
+[15:00:29] [Server thread/INFO]: Fariaa issued server command: /give Fariaa tnt 64
+[15:00:29] [Server thread/INFO]: [Fariaa: Gave 64 [TNT] to Fariaa]
+[15:00:45] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:redstone_torch 1
+[15:00:45] [Server thread/INFO]: [Fariaa: Gave 1 [Redstone Torch] to Fariaa]
+[15:08:38] [Server thread/WARN]: Kunkers moved too quickly! 52.14414195445397,-5.1657904566744435,-15.086640293026989
+[15:08:47] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:redstone_torch 10
+[15:08:47] [Server thread/INFO]: [Fariaa: Gave 10 [Redstone Torch] to Fariaa]
+[15:11:58] [Server thread/INFO]: Fariaa issued server command: /msg Fariaa ol
+[15:12:08] [Server thread/INFO]: Fariaa issued server command: /msg Fariaa -2411 64 -1023
+[15:12:49] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:firework_rocket 40
+[15:12:49] [Server thread/INFO]: [Fariaa: Gave 40 [Firework Rocket] to Fariaa]
+[15:13:05] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:firework_rocket 40
+[15:13:05] [Server thread/INFO]: [Fariaa: Gave 40 [Firework Rocket] to Fariaa]
+[15:13:18] [Server thread/WARN]: Fariaa moved wrongly!
+[15:13:29] [Server thread/INFO]: Fariaa issued server command: /msg Fariaa -2511 64 -1023
+[15:14:04] [Server thread/INFO]: Fariaa issued server command: /msg Fariaa -2496 -59 -1008
+[15:16:17] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[15:16:17] [Server thread/INFO]: Fariaa left the game
+[15:18:18] [User Authenticator #90/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[15:18:18] [Server thread/INFO]: Fariaa[/89.115.202.128:63854] logged in with entity id 848625 at ([smpino]-2511.677962162114, 64.0, -1023.5249787426227)
+[15:18:25] [Async Chat Thread - #81/INFO]: <Fariaa> sleep pls
+[15:18:40] [Async Chat Thread - #81/INFO]: <Kunkers> somos só dois
+[15:18:44] [Async Chat Thread - #81/INFO]: <Kunkers> e tou no nether
+[15:18:45] [Async Chat Thread - #81/INFO]: <Fariaa> im not home
+[15:18:50] [Server thread/INFO]: Fariaa issued server command: /time set 1
+[15:18:50] [Server thread/INFO]: [Fariaa: Set the time to 1]
+[15:18:55] [Async Chat Thread - #81/INFO]: <Kunkers> cant sleep
+[15:18:57] [Async Chat Thread - #81/INFO]: <Kunkers> busy
+[15:19:01] [Async Chat Thread - #81/INFO]: <Fariaa> k
+[15:19:33] [Server thread/INFO]: Fariaa issued server command: /fill -2511 64 -1023 -2496 0 -1008 minecraft:air
+[15:19:33] [Server thread/INFO]: [Fariaa: Successfully filled 5227 blocks]
+[15:19:58] [Server thread/INFO]: Fariaa issued server command: /fill -2511 0 -1023 -2496 -59 -1008 minecraft:air
+[15:19:58] [Server thread/INFO]: [Fariaa: Successfully filled 5429 blocks]
+[15:23:43] [Server thread/INFO]: Fariaa issued server command: /fill -2495 0 -1023 -2495 -59 -1008 minecraft:cobblestone
+[15:23:43] [Server thread/INFO]: [Fariaa: Successfully filled 960 blocks]
+[15:24:11] [Server thread/INFO]: Fariaa issued server command: /fill -2495 64 -1023 -2495 0 -1008 minecraft:cobblestone
+[15:24:11] [Server thread/INFO]: [Fariaa: Successfully filled 1024 blocks]
+[15:24:22] [Server thread/INFO]: Fariaa issued server command: /fill -2496 64 -1023 -2496 0 -1008 minecraft:cobblestone
+[15:24:22] [Server thread/INFO]: [Fariaa: Successfully filled 1040 blocks]
+[15:24:51] [Server thread/INFO]: Fariaa issued server command: /fill -2495 64 -1023 -2495 0 -1008 minecraft:sand
+[15:24:51] [Server thread/INFO]: [Fariaa: Successfully filled 1040 blocks]
+[15:25:53] [Server thread/INFO]: Fariaa issued server command: /fill -2495 64 -1007 -2511 0 -1007 minecraft:cobblestone
+[15:25:53] [Server thread/INFO]: [Fariaa: Successfully filled 1103 blocks]
+[15:26:01] [Server thread/INFO]: Fariaa issued server command: /fill -2495 64 -1007 -2511 0 -1007 minecraft:sand
+[15:26:01] [Server thread/INFO]: [Fariaa: Successfully filled 1105 blocks]
+[15:26:28] [Server thread/INFO]: Fariaa issued server command: /fill -2495 64 -1008 -2511 0 -1008 minecraft:cobblestone
+[15:26:28] [Server thread/INFO]: [Fariaa: Successfully filled 1042 blocks]
+[15:26:54] [Server thread/INFO]: Fariaa issued server command: /fill -2495 0 -1008 -2511 -59 -1008 minecraft:cobblestone
+[15:26:54] [Server thread/INFO]: [Fariaa: Successfully filled 944 blocks]
+[15:29:20] [Server thread/INFO]: Fariaa issued server command: /fill -2511 62 -1024 -2511 63 -1008 minecraft:cobblestone
+[15:29:20] [Server thread/INFO]: [Fariaa: Successfully filled 32 blocks]
+[15:29:33] [Server thread/INFO]: Fariaa issued server command: /fill -2512 62 -1024 -2512 63 -1008 minecraft:cobblestone
+[15:29:33] [Server thread/INFO]: [Fariaa: Successfully filled 33 blocks]
+[15:29:43] [Server thread/INFO]: Fariaa issued server command: /fill -2512 0 -1024 -2512 63 -1008 minecraft:air
+[15:29:43] [Server thread/INFO]: [Fariaa: Successfully filled 725 blocks]
+[15:29:52] [Server thread/INFO]: Fariaa issued server command: /fill -2512 0 -1024 -2512 63 -1008 minecraft:cobblestone
+[15:29:52] [Server thread/INFO]: [Fariaa: Successfully filled 1088 blocks]
+[15:30:06] [Server thread/INFO]: Fariaa issued server command: /fill -2512 0 -1024 -2512 63 -1007 minecraft:cobblestone
+[15:30:06] [Server thread/INFO]: [Fariaa: Successfully filled 64 blocks]
+[15:30:11] [Server thread/INFO]: Fariaa issued server command: /fill -2512 0 -1024 -2512 63 -1007 minecraft:air
+[15:30:11] [Server thread/INFO]: [Fariaa: Successfully filled 1152 blocks]
+[15:30:39] [Server thread/INFO]: Fariaa issued server command: /fill -2512 0 -1024 -2512 63 -1007 minecraft:cobblestone
+[15:30:39] [Server thread/INFO]: [Fariaa: Successfully filled 1152 blocks]
+[15:30:47] [Server thread/INFO]: Fariaa issued server command: /fill -2512 0 -1024 -2512 63 -1009 minecraft:air
+[15:30:47] [Server thread/INFO]: [Fariaa: Successfully filled 1024 blocks]
+[15:30:55] [Server thread/INFO]: Fariaa issued server command: /fill -2512 0 -1024 -2512 -59 -1009 minecraft:air
+[15:30:55] [Server thread/INFO]: [Fariaa: Successfully filled 653 blocks]
+[15:32:26] [Server thread/INFO]: Fariaa issued server command: /fill -2494 63 -1023 -2512 63 -1023 minecraft:cobblestone
+[15:32:26] [Server thread/INFO]: [Fariaa: Successfully filled 18 blocks]
+[15:32:47] [Server thread/INFO]: Fariaa issued server command: /fill -2494 63 -1023 -2512 63 -1023 minecraft:cobbled_deepslate
+[15:32:47] [Server thread/INFO]: [Fariaa: Successfully filled 19 blocks]
+[15:33:10] [Server thread/INFO]: Fariaa issued server command: /fill -2496 63 -1023 -2512 63 -1023 minecraft:cobblestone
+[15:33:10] [Server thread/INFO]: [Fariaa: Successfully filled 17 blocks]
+[15:33:32] [Server thread/INFO]: Fariaa issued server command: /fill -2497 63 -1023 -2512 63 -1023 minecraft:cobbled_deepslate
+[15:33:32] [Server thread/INFO]: [Fariaa: Successfully filled 16 blocks]
+[15:33:48] [Server thread/INFO]: Fariaa issued server command: /fill -2497 63 -1024 -2512 63 -1024 minecraft:cobbled_deepslate
+[15:33:48] [Server thread/INFO]: [Fariaa: Successfully filled 16 blocks]
+[15:34:00] [Server thread/INFO]: Fariaa issued server command: /fill -2497 -59 -1024 -2512 63 -1024 minecraft:air
+[15:34:00] [Server thread/INFO]: [Fariaa: Successfully filled 818 blocks]
+[15:34:17] [Server thread/INFO]: Fariaa issued server command: /fill -2497 -59 -1025 -2512 63 -1025 minecraft:cobblestone
+[15:34:17] [Server thread/INFO]: [Fariaa: Successfully filled 1801 blocks]
+[15:35:04] [Async Chat Thread - #82/INFO]: <Kunkers> how do you repair anvil?
+[15:35:09] [Async Chat Thread - #82/INFO]: <Fariaa> make new one
+[15:35:20] [Async Chat Thread - #82/INFO]: <Kunkers> for real?
+[15:36:56] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[15:36:56] [Server thread/INFO]: Kunkers left the game
+[15:38:15] [Server thread/INFO]: Fariaa issued server command: /fill -2495 -59 -1022 -2495 -59 -1008 minecraft:cobblestone
+[15:38:32] [Server thread/INFO]: Fariaa issued server command: /fill -2496 -59 -1022 -2496 -59 -1008 minecraft:cobblestone
+[15:38:32] [Server thread/INFO]: [Fariaa: Successfully filled 14 blocks]
+[15:38:38] [Server thread/INFO]: Fariaa issued server command: /fill -2496 -59 -1023 -2496 -59 -1008 minecraft:cobblestone
+[15:38:38] [Server thread/INFO]: [Fariaa: Successfully filled 1 blocks]
+[15:38:44] [Server thread/INFO]: Fariaa issued server command: /fill -2496 -59 -1023 -2496 0 -1008 minecraft:cobblestone
+[15:38:44] [Server thread/INFO]: [Fariaa: Successfully filled 870 blocks]
+[15:44:19] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:crafting_table
+[15:44:19] [Server thread/INFO]: [Fariaa: Gave 1 [Crafting Table] to Fariaa]
+[15:47:50] [Server thread/INFO]: Fariaa issued server command: /give Fariaa torch 10
+[15:47:50] [Server thread/INFO]: [Fariaa: Gave 10 [Torch] to Fariaa]
+[15:48:37] [Server thread/INFO]: Fariaa issued server command: /give Fariaa torch 10
+[15:48:37] [Server thread/INFO]: [Fariaa: Gave 10 [Torch] to Fariaa]
+[15:49:13] [Server thread/INFO]: Fariaa issued server command: /give Fariaa torch 10
+[15:49:13] [Server thread/INFO]: [Fariaa: Gave 10 [Torch] to Fariaa]
+[15:49:23] [Server thread/INFO]: Fariaa issued server command: /give Fariaa torch 10
+[15:49:23] [Server thread/INFO]: [Fariaa: Gave 10 [Torch] to Fariaa]
+[15:49:36] [Server thread/INFO]: Fariaa issued server command: /time set 1
+[15:49:36] [Server thread/INFO]: [Fariaa: Set the time to 1]
+[15:50:07] [Server thread/INFO]: Fariaa issued server command: /time set 300d
+[15:50:07] [Server thread/INFO]: [Fariaa: Set the time to 7200000]
+[15:50:13] [Server thread/INFO]: Fariaa issued server command: /time set 579d
+[15:50:13] [Server thread/INFO]: [Fariaa: Set the time to 13896000]
+[15:52:53] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:cobblestone 900
+[15:52:53] [Server thread/INFO]: [Fariaa: Gave 900 [Cobblestone] to Fariaa]
+[15:53:01] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:cobblestone 900
+[15:53:01] [Server thread/INFO]: [Fariaa: Gave 900 [Cobblestone] to Fariaa]
+[15:53:05] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:cobblestone 900
+[15:53:05] [Server thread/INFO]: [Fariaa: Gave 900 [Cobblestone] to Fariaa]
+[15:53:21] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:cobbled_deepslate 1500
+[15:53:21] [Server thread/INFO]: [Fariaa: Gave 1500 [Cobbled Deepslate] to Fariaa]
+[15:54:30] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[15:54:30] [Server thread/INFO]: Fariaa left the game
+[16:48:22] [User Authenticator #91/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[16:48:22] [Server thread/INFO]: Fariaa[/89.115.202.128:40865] logged in with entity id 862417 at ([smpino]-2580.4392627041316, 66.0, -859.9357138105572)
+[16:55:46] [User Authenticator #92/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[16:55:46] [Server thread/INFO]: Kunkers[/94.61.5.137:58617] logged in with entity id 864412 at ([smpino]-1334.7888217121424, 98.0, -78.18010727646892)
+[16:56:00] [Async Chat Thread - #83/INFO]: <Kunkers> hello
+[16:56:04] [Async Chat Thread - #83/INFO]: <Fariaa> hey
+[17:02:25] [Async Chat Thread - #84/INFO]: <Fariaa> fun fact se os zombies droparem batatas
+[17:02:29] [Async Chat Thread - #84/INFO]: <Fariaa> e tiverem em fogo
+[17:02:33] [Async Chat Thread - #84/INFO]: <Fariaa> it cooks it
+[17:02:48] [Async Chat Thread - #84/INFO]: <Kunkers> makes sense
+[17:05:07] [Async Chat Thread - #85/INFO]: <Fariaa> why u touch egg
+[17:05:11] [Async Chat Thread - #85/INFO]: <Kunkers> ?
+[17:05:20] [Async Chat Thread - #85/INFO]: <Fariaa> end dragon egg
+[17:05:24] [Async Chat Thread - #85/INFO]: <Kunkers> nao toquei
+[17:05:37] [Async Chat Thread - #85/INFO]: <Fariaa> found it in cave randomlty
+[17:05:50] [Async Chat Thread - #85/INFO]: <Kunkers> idk
+[17:16:55] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[17:16:55] [Server thread/INFO]: Kunkers left the game
+[17:29:42] [Server thread/INFO]: Fariaa issued server command: /give Fariaa redstone 64
+[17:29:42] [Server thread/INFO]: [Fariaa: Gave 64 [Redstone Dust] to Fariaa]
+[17:29:48] [Server thread/INFO]: Fariaa issued server command: /give Fariaa quartz 64
+[17:29:48] [Server thread/INFO]: [Fariaa: Gave 64 [Nether Quartz] to Fariaa]
+[17:30:47] [Server thread/INFO]: Fariaa issued server command: /give Fariaa redstone 64
+[17:30:47] [Server thread/INFO]: [Fariaa: Gave 64 [Redstone Dust] to Fariaa]
+[17:33:47] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:bookshelf 19
+[17:33:47] [Server thread/INFO]: [Fariaa: Gave 19 [Bookshelf] to Fariaa]
+[17:38:14] [Server thread/WARN]: Fariaa moved wrongly!
+[17:38:19] [Server thread/WARN]: Fariaa moved wrongly!
+[18:35:47] [Server thread/INFO]: Fariaa issued server command: /give Fariaa minecraft:item_frame 6
+[18:35:47] [Server thread/INFO]: [Fariaa: Gave 6 [Item Frame] to Fariaa]
+[18:38:46] [User Authenticator #93/INFO]: UUID of player Krix2g is e755e9ff-c888-3a3c-bb84-bca624ee043b
+[18:38:47] [Server thread/INFO]: Krix2g[/178.166.53.145:13996] logged in with entity id 897750 at ([smpino]-1345.1911034128457, 144.0625, -461.32228818940496)
+[18:38:48] [User Authenticator #94/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[18:38:49] [Server thread/INFO]: xSwtDx[/87.196.101.81:54773] logged in with entity id 897751 at ([smpino]-1244.1190424586025, 70.0, 985.3000000119209)
+[18:38:56] [Async Chat Thread - #86/INFO]: <Fariaa> damn
+[18:38:57] [Async Chat Thread - #86/INFO]: <Fariaa> wtf
+[18:38:58] [Async Chat Thread - #86/INFO]: <Krix2g> i knew it
+[18:39:03] [Async Chat Thread - #86/INFO]: <Fariaa> 2 ao mesmo tempo?
+[18:39:08] [Async Chat Thread - #86/INFO]: <xSwtDx> yo wtf
+[18:39:22] [Async Chat Thread - #86/INFO]: <xSwtDx> knew what
+[18:39:36] [Async Chat Thread - #86/INFO]: <Krix2g> grinding on minecraft but not even on discord
+[18:39:45] [Async Chat Thread - #86/INFO]: <xSwtDx> TRUEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+[18:39:50] [Async Chat Thread - #86/INFO]: <Krix2g> esse faria
+[18:39:52] [Async Chat Thread - #86/INFO]: <Fariaa> queres
+[18:39:55] [Async Chat Thread - #86/INFO]: <Fariaa> deepslate?
+[18:40:10] [Async Chat Thread - #86/INFO]: <xSwtDx> quero blackstone e quartzo :)
+[18:51:10] [Async Chat Thread - #87/INFO]: <Krix2g> -1357 59 -460
+[19:05:03] [Server thread/INFO]: Fariaa issued server command: /tp xSwtDx Fariaa
+[19:05:03] [Server thread/INFO]: [Fariaa: Teleported xSwtDx to Fariaa]
+[19:25:42] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[19:25:42] [Server thread/INFO]: xSwtDx left the game
+[19:32:19] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[19:32:19] [Server thread/INFO]: Fariaa left the game
+[19:50:45] [Server thread/INFO]: Krix2g lost connection: Disconnected
+[19:50:45] [Server thread/INFO]: Krix2g left the game
+[20:33:45] [User Authenticator #95/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[20:33:45] [Server thread/INFO]: Kunkers[/94.61.5.137:62486] logged in with entity id 929240 at ([smpino]-1335.013881635694, 98.0, -69.79019078630989)
+[21:47:04] [IO-Worker-5102/ERROR]: Failed to store chunk [-81, -11]
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1579) ~[?:?]
+	at java.util.HashMap$KeyIterator.next(HashMap.java:1602) ~[?:?]
+	at net.minecraft.nbt.NBTTagCompound.a(SourceFile:163) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:230) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:198) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.a(RegionFileCache.java:141) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:174) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:164) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:59) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[21:50:10] [IO-Worker-5102/ERROR]: Failed to store chunk [-77, -12]
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1579) ~[?:?]
+	at java.util.HashMap$KeyIterator.next(HashMap.java:1602) ~[?:?]
+	at net.minecraft.nbt.NBTTagCompound.a(SourceFile:163) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:230) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:198) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.a(RegionFileCache.java:141) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:174) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:164) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:59) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[21:50:12] [IO-Worker-5104/ERROR]: Failed to store chunk [-93, -8]
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1579) ~[?:?]
+	at java.util.HashMap$KeyIterator.next(HashMap.java:1602) ~[?:?]
+	at net.minecraft.nbt.NBTTagCompound.a(SourceFile:163) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:230) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:198) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.a(RegionFileCache.java:141) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:174) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:164) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:59) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[21:50:19] [IO-Worker-5090/ERROR]: Failed to store chunk [-86, -14]
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1579) ~[?:?]
+	at java.util.HashMap$KeyIterator.next(HashMap.java:1602) ~[?:?]
+	at net.minecraft.nbt.NBTTagCompound.a(SourceFile:163) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:230) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:198) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.a(RegionFileCache.java:141) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:174) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:164) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:59) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[21:52:02] [IO-Worker-5106/ERROR]: Failed to store chunk [-93, -15]
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1579) ~[?:?]
+	at java.util.HashMap$KeyIterator.next(HashMap.java:1602) ~[?:?]
+	at net.minecraft.nbt.NBTTagCompound.a(SourceFile:163) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:230) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:198) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.a(RegionFileCache.java:141) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:174) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:164) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:59) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[21:52:04] [IO-Worker-5106/ERROR]: Failed to store chunk [-79, -4]
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1579) ~[?:?]
+	at java.util.HashMap$KeyIterator.next(HashMap.java:1602) ~[?:?]
+	at net.minecraft.nbt.NBTTagCompound.a(SourceFile:163) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:230) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:198) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.a(RegionFileCache.java:141) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:174) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:164) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:59) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[21:55:55] [User Authenticator #96/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[21:55:55] [Server thread/INFO]: xSwtDx[/87.196.101.81:53882] logged in with entity id 970050 at ([smpino]-1246.300000011921, 70.0, 982.9433491412809)
+[21:56:48] [User Authenticator #97/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[21:56:48] [Server thread/INFO]: Fariaa[/89.115.202.128:51614] logged in with entity id 970613 at ([smpino]-2580.742984013914, 66.0, -855.6946664418015)
+[21:56:52] [Server thread/WARN]: Kunkers moved too quickly! 11.888987188825013,-6.555634083800925,-11.613204010880622
+[21:59:08] [Server thread/WARN]: Fariaa moved too quickly! 0.5992248640886828,0.0,-10.13347083550957
+[21:59:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5101ms or 102 ticks behind
+[22:00:16] [IO-Worker-5106/ERROR]: Failed to store chunk [-238, -11]
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1579) ~[?:?]
+	at java.util.HashMap$KeyIterator.next(HashMap.java:1602) ~[?:?]
+	at net.minecraft.nbt.NBTTagCompound.a(SourceFile:163) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:230) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:198) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.a(RegionFileCache.java:141) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:174) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:164) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:59) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[22:02:37] [User Authenticator #98/INFO]: UUID of player Digger19 is 9677ca35-82d2-3914-83c2-86a250a87eb9
+[22:02:38] [Server thread/INFO]: Digger19[/89.154.169.171:57448] logged in with entity id 974334 at ([smpino]-1094.902740210494, 64.0, 132.7917751866153)
+[22:02:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
+[22:02:55] [Server thread/INFO]: Fariaa issued server command: /save-all
+[22:02:55] [Server thread/INFO]: [Fariaa: Saved the game]
+[22:04:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[22:04:59] [IO-Worker-5112/ERROR]: Failed to store chunk [-243, -3]
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1579) ~[?:?]
+	at java.util.HashMap$KeyIterator.next(HashMap.java:1602) ~[?:?]
+	at net.minecraft.nbt.NBTTagCompound.a(SourceFile:163) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:230) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:198) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.a(RegionFileCache.java:141) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:174) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:164) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:59) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[22:05:31] [IO-Worker-5113/ERROR]: Failed to store chunk [-245, -3]
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1579) ~[?:?]
+	at java.util.HashMap$KeyIterator.next(HashMap.java:1602) ~[?:?]
+	at net.minecraft.nbt.NBTTagCompound.a(SourceFile:163) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:230) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:198) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.a(RegionFileCache.java:141) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:174) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:164) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:59) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[22:19:45] [IO-Worker-5117/ERROR]: Failed to store chunk [-255, -15]
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1579) ~[?:?]
+	at java.util.HashMap$KeyIterator.next(HashMap.java:1602) ~[?:?]
+	at net.minecraft.nbt.NBTTagCompound.a(SourceFile:163) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:230) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:198) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.a(RegionFileCache.java:141) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:174) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:164) ~[spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:59) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]

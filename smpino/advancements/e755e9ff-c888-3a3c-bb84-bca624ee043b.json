@@ -209,6 +209,12 @@
     },
     "done": true
   },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2021-12-06 22:06:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2021-11-30 21:49:07 +0000"
@@ -350,6 +356,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2021-12-01 17:43:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2021-12-06 18:36:50 +0000"
     },
     "done": true
   },
@@ -650,6 +662,12 @@
   "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
     "criteria": {
       "has_basalt": "2021-12-01 17:43:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2021-12-06 18:39:52 +0000"
     },
     "done": true
   },
@@ -1188,6 +1206,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2021-12-06 18:36:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_logs": "2021-11-30 19:56:16 +0000"
@@ -1245,6 +1269,18 @@
   "minecraft:recipes/building_blocks/jungle_planks": {
     "criteria": {
       "has_logs": "2021-11-30 19:28:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2021-12-06 18:39:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2021-12-06 18:36:50 +0000"
     },
     "done": true
   },
@@ -1494,6 +1530,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_black_dye": "2021-12-06 18:39:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2021-11-30 21:28:33 +0000",
@@ -1685,6 +1727,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
+    "criteria": {
+      "has_dried_kelp": "2021-12-04 16:22:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/raw_iron": {
     "criteria": {
       "has_raw_iron_block": "2021-12-01 20:29:28 +0000"
@@ -1866,6 +1914,12 @@
   "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
       "has_soul_sand": "2021-12-01 17:41:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_black_dye": "2021-12-06 18:39:03 +0000"
     },
     "done": true
   },
@@ -2667,6 +2721,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp": {
+    "criteria": {
+      "has_dried_kelp_block": "2021-12-04 16:22:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2021-12-02 13:42:12 +0000"
@@ -2859,6 +2919,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2021-12-06 18:39:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_gravel": "2021-11-30 23:28:06 +0000"
@@ -3030,6 +3096,12 @@
   "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2021-11-30 22:42:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2021-12-06 18:39:52 +0000"
     },
     "done": true
   },
