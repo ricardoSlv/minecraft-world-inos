@@ -4688,3 +4688,693 @@ java.util.ConcurrentModificationException: null
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.lang.Thread.run(Thread.java:833) [?:?]
+Unbundling libraries to /home/SMPINO/bundler
+Starting server
+*** Error, this build is outdated ***
+*** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+*** Server will start in 20 seconds ***
+Loading libraries, please wait...
+[22:25:47] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:25:48] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[22:25:49] [Worker-Main-5/INFO]: Loaded 7 recipes
+[22:25:47] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:25:48] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[22:25:49] [Worker-Main-5/INFO]: Loaded 7 recipes
+[22:25:50] [Server thread/INFO]: Starting minecraft server version 1.18
+[22:25:50] [Server thread/INFO]: Loading properties
+[22:25:51] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:244) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:263) ~[?:?]
+	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[jline-2.12.1.jar:?]
+	at jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[jline-2.12.1.jar:?]
+	at jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[jline-2.12.1.jar:?]
+	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[jline-2.12.1.jar:?]
+	at jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[jline-2.12.1.jar:?]
+	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[jline-2.12.1.jar:?]
+	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[jline-2.12.1.jar:?]
+	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[jline-2.12.1.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:130) [spigot-1.18-R0.1-SNAPSHOT.jar:3332-Spigot-a5dea1c-bc14cb6]
+[22:25:51] [Server thread/INFO]: This server is running CraftBukkit version 3332-Spigot-a5dea1c-bc14cb6 (MC: 1.18) (Implementing API version 1.18-R0.1-SNAPSHOT)
+[22:25:51] [Server thread/INFO]: Debug logging is disabled
+[22:25:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:25:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:25:51] [Server thread/INFO]: Default game type: SURVIVAL
+[22:25:51] [Server thread/INFO]: Generating keypair
+[22:25:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:25:51] [Server thread/INFO]: Using epoll channel type
+[22:25:53] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.7
+[22:25:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:25:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:25:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:25:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:25:53] [Server thread/INFO]: Preparing level "smpino"
+[22:25:54] [Server thread/INFO]: -------- World Settings For [smpino] --------
+[22:25:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:25:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:25:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:25:54] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:25:54] [Server thread/INFO]: Mob Spawn Range: 6
+[22:25:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:25:54] [Server thread/INFO]: Max TNT Explosions: 100
+[22:25:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:25:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:25:54] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:25:54] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:25:54] [Server thread/INFO]: View Distance: 10
+[22:25:54] [Server thread/INFO]: Simulation Distance: 10
+[22:25:54] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:25:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:25:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:25:54] [Server thread/INFO]: -------- World Settings For [smpino_nether] --------
+[22:25:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:25:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:25:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:25:54] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:25:54] [Server thread/INFO]: Mob Spawn Range: 6
+[22:25:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:25:54] [Server thread/INFO]: Max TNT Explosions: 100
+[22:25:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:25:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:25:54] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:25:54] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:25:54] [Server thread/INFO]: View Distance: 10
+[22:25:54] [Server thread/INFO]: Simulation Distance: 10
+[22:25:54] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:25:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:25:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:25:54] [Server thread/INFO]: -------- World Settings For [smpino_the_end] --------
+[22:25:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:25:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:25:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:25:54] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:25:54] [Server thread/INFO]: Mob Spawn Range: 6
+[22:25:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:25:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:25:54] [Server thread/INFO]: Max TNT Explosions: 100
+[22:25:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:25:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:25:54] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:25:54] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:25:54] [Server thread/INFO]: View Distance: 10
+[22:25:54] [Server thread/INFO]: Simulation Distance: 10
+[22:25:54] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:25:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:25:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:25:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:25:56] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[22:25:56] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[22:25:56] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[22:25:56] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[22:25:56] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[22:25:57] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[22:25:57] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[22:25:58] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[22:25:58] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[22:25:59] [Worker-Main-5/INFO]: Preparing spawn area: 2%
+[22:25:59] [Worker-Main-4/INFO]: Preparing spawn area: 7%
+[22:26:00] [Worker-Main-4/INFO]: Preparing spawn area: 10%
+[22:26:00] [Worker-Main-5/INFO]: Preparing spawn area: 17%
+[22:26:01] [Worker-Main-4/INFO]: Preparing spawn area: 23%
+[22:26:01] [Worker-Main-4/INFO]: Preparing spawn area: 29%
+[22:26:02] [Worker-Main-6/INFO]: Preparing spawn area: 33%
+[22:26:02] [Worker-Main-4/INFO]: Preparing spawn area: 40%
+[22:26:03] [Worker-Main-6/INFO]: Preparing spawn area: 48%
+[22:26:04] [Worker-Main-4/INFO]: Preparing spawn area: 63%
+[22:26:04] [Worker-Main-4/INFO]: Preparing spawn area: 71%
+[22:26:04] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:26:06] [Server thread/INFO]: Time elapsed: 11139 ms
+[22:26:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:26:07] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[22:26:07] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[22:26:07] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[22:26:07] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[22:26:08] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[22:26:08] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[22:26:09] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[22:26:09] [Worker-Main-5/INFO]: Preparing spawn area: 3%
+[22:26:10] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[22:26:10] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[22:26:11] [Worker-Main-4/INFO]: Preparing spawn area: 15%
+[22:26:11] [Worker-Main-6/INFO]: Preparing spawn area: 21%
+[22:26:12] [Worker-Main-6/INFO]: Preparing spawn area: 33%
+[22:26:12] [Worker-Main-4/INFO]: Preparing spawn area: 47%
+[22:26:13] [Worker-Main-6/INFO]: Preparing spawn area: 62%
+[22:26:13] [Worker-Main-5/INFO]: Preparing spawn area: 71%
+[22:26:14] [Worker-Main-6/INFO]: Preparing spawn area: 74%
+[22:26:15] [Worker-Main-6/INFO]: Preparing spawn area: 74%
+[22:26:15] [Worker-Main-6/INFO]: Preparing spawn area: 74%
+[22:26:15] [Worker-Main-6/INFO]: Preparing spawn area: 74%
+[22:26:16] [Worker-Main-6/INFO]: Preparing spawn area: 74%
+[22:26:16] [Worker-Main-4/INFO]: Preparing spawn area: 85%
+[22:26:17] [Worker-Main-4/INFO]: Preparing spawn area: 94%
+[22:26:17] [Server thread/INFO]: Time elapsed: 11205 ms
+[22:26:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:26:18] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[22:26:18] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[22:26:18] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[22:26:18] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[22:26:19] [Worker-Main-5/INFO]: Preparing spawn area: 2%
+[22:26:19] [Worker-Main-5/INFO]: Preparing spawn area: 5%
+[22:26:20] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[22:26:20] [Worker-Main-5/INFO]: Preparing spawn area: 27%
+[22:26:21] [Worker-Main-4/INFO]: Preparing spawn area: 44%
+[22:26:21] [Worker-Main-4/INFO]: Preparing spawn area: 60%
+[22:26:22] [Worker-Main-4/INFO]: Preparing spawn area: 80%
+[22:26:22] [Worker-Main-4/INFO]: Preparing spawn area: 92%
+[22:26:23] [Worker-Main-4/INFO]: Preparing spawn area: 94%
+[22:26:23] [Server thread/INFO]: Time elapsed: 6156 ms
+[22:26:23] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.7
+[22:26:23] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_18_R1, using MappingSpigotSkinRefresher.
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value PREFIX to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_CLEAR to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_CLEAR_OTHER to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_UPDATE to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_UPDATE_OTHER to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET_OTHER to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET_OTHER_URL to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_RELOAD to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_STATUS to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_DROP to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_PROPS to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_APPLY_SKIN to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_CREATECUSTOM to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_DEFAULTCOMMAND to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINSET to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINSET_OTHER to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINURL to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINUPDATE_OTHER to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINCLEAR_OTHER to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value COMPLETIONS_SKIN to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value COMPLETIONS_SKINNAME to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value COMPLETIONS_SKINURL to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value PLAYER_HAS_NO_PERMISSION_SKIN to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value PLAYER_HAS_NO_PERMISSION_URL to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_DISABLED to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINURL_DISALLOWED to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value NOT_PREMIUM to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value INVALID_PLAYER to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_COOLDOWN to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CHANGE_SUCCESS to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CLEAR_SUCCESS to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CLEAR_ISSUER to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value MS_UPDATING_SKIN to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_CREATE_SKIN to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_UPDATING_SKIN to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_UPDATING_SKIN_OTHER to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_SKIN to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_URL to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_CUSTOMSKIN to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_INVALID_URLSKIN to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_MS_FULL to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_MS_GENERIC to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value GENERIC_ERROR to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value WAIT_A_MINUTE to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_NO_SKIN to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_OPEN to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_TITLE_NEW to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_NEXT_PAGE to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_PREVIOUS_PAGE to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_REMOVE_SKIN to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_SELECT_SKIN to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value ADMIN_SET_SKIN to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value DATA_DROPPED to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value STATUS_OK to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value ALT_API_FAILED to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value MS_API_FAILED to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value NO_SKIN_DATA to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value RELOAD to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value OUTDATED to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value SR_LINE to messages.yml
+[22:26:24] [Server thread/INFO]: [SkinsRestorer] Saving new config value CUSTOM_HELP_IF_ENABLED to messages.yml
+[22:26:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:26:25] [Server thread/INFO]: Done (32.861s)! For help, type "help"
+[22:26:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:26:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     +==================+
+[22:26:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[22:26:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     |------------------|
+[22:26:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[22:26:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     +==================+
+[22:26:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:26:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     Current version: 14.1.7
+[22:26:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     This is the latest version!
+[22:26:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:28:58] [User Authenticator #1/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[22:28:58] [Server thread/INFO]: Fariaa[/89.115.202.128:57988] logged in with entity id 191 at ([smpino]-2580.989296991138, 66.0, -875.2488342208597)
+[22:30:38] [User Authenticator #2/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[22:30:38] [Server thread/INFO]: Kunkers[/94.61.5.137:61313] logged in with entity id 952 at ([smpino]-3870.7847814045367, 59.3361470966088, -19.611801817250264)
+[22:30:41] [Server thread/WARN]: Fariaa moved too quickly! 0.0974893228089968,0.0,-10.889381659631908
+[22:31:33] [User Authenticator #3/INFO]: UUID of player Digger19 is 9677ca35-82d2-3914-83c2-86a250a87eb9
+[22:31:33] [Server thread/INFO]: Digger19[/89.154.169.171:56002] logged in with entity id 1507 at ([smpino]-1107.7676843911572, 65.0, 129.1296368947077)
+[22:36:50] [User Authenticator #4/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[22:36:50] [Server thread/INFO]: xSwtDx[/87.196.101.81:57829] logged in with entity id 4483 at ([smpino]-1204.3927913649602, 71.7531999805212, 970.3000000119209)
+[22:36:59] [Async Chat Thread - #0/INFO]: <Kunkers> hello
+[22:38:47] [Async Chat Thread - #1/INFO]: <xSwtDx> selling my arse for spruce
+[22:38:59] [Async Chat Thread - #1/INFO]: <Kunkers> go chest
+[22:39:11] [Async Chat Thread - #1/INFO]: <Kunkers> acho que ta no chest
+[22:39:26] [Async Chat Thread - #1/INFO]: <Kunkers> amogus
+[22:39:35] [Async Chat Thread - #1/INFO]: <Kunkers> chest debaico de casa
+[22:39:39] [Async Chat Thread - #1/INFO]: <xSwtDx> wide steve
+[22:40:19] [Async Chat Thread - #1/INFO]: <Kunkers> onde tem oak log no item frame
+[22:40:25] [Async Chat Thread - #1/INFO]: <Kunkers> deve ter
+[22:40:46] [Async Chat Thread - #1/INFO]: <xSwtDx> ty kind si
+[22:40:50] [Async Chat Thread - #1/INFO]: <Kunkers> np
+[22:40:56] [Async Chat Thread - #1/INFO]: <Digger19> thank you for gold kind stranger
+[22:42:05] [User Authenticator #5/INFO]: UUID of player Krix2g is e755e9ff-c888-3a3c-bb84-bca624ee043b
+[22:42:05] [Server thread/INFO]: Krix2g[/178.166.53.145:57382] logged in with entity id 7952 at ([smpino]-1355.663038447963, 118.0, -466.50639309017663)
+[22:42:11] [Async Chat Thread - #2/INFO]: <Krix2g> i'm here
+[22:42:14] [Async Chat Thread - #2/INFO]: <Krix2g> look at me
+[22:44:34] [Server thread/INFO]: Krix2g was slain by Kunkers using [Nigger Slitter II]
+[22:46:28] [Server thread/INFO]: Krix2g fell from a high place
+[22:49:14] [Server thread/WARN]: Krix2g moved wrongly!
+[22:49:14] [Server thread/WARN]: Krix2g moved wrongly!
+[22:49:14] [Server thread/WARN]: Krix2g moved wrongly!
+[22:49:14] [Server thread/WARN]: Krix2g moved wrongly!
+[22:49:14] [Server thread/WARN]: Krix2g moved wrongly!
+[22:49:14] [Server thread/WARN]: Krix2g moved wrongly!
+[22:49:15] [Server thread/WARN]: Krix2g moved wrongly!
+[22:49:47] [Server thread/INFO]: Krix2g lost connection: Disconnected
+[22:49:47] [Server thread/INFO]: Krix2g left the game
+[22:52:12] [Server thread/INFO]: Digger19 fell from a high place
+[22:59:23] [Async Chat Thread - #3/INFO]: <Fariaa> MAGA
+[22:59:37] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[22:59:37] [Server thread/INFO]: xSwtDx left the game
+[23:13:52] [User Authenticator #6/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[23:13:52] [Server thread/INFO]: xSwtDx[/87.196.101.81:50307] logged in with entity id 29266 at ([smpino]-1239.5, 93.0, 962.5)
+[23:15:18] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers
+[23:15:18] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Kunkers]
+[23:19:26] [Server thread/INFO]: Kunkers has made the advancement [War Pigs]
+[23:19:29] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers
+[23:19:29] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Kunkers]
+[23:19:30] [Server thread/INFO]: Fariaa has made the advancement [Those Were the Days]
+[23:20:48] [Server thread/INFO]: Fariaa has made the advancement [War Pigs]
+[23:29:51] [Async Chat Thread - #4/INFO]: <Fariaa> Sweet
+[23:42:08] [Server thread/INFO]: xSwtDx was slain by Zombie
+[23:42:14] [Async Chat Thread - #5/INFO]: <Fariaa> KEKW
+[23:42:18] [Async Chat Thread - #5/INFO]: <Fariaa> 2tap
+[23:43:04] [Server thread/INFO]: Fariaa issued server command: /tp xSwtDx Fariaa
+[23:43:04] [Server thread/INFO]: [Fariaa: Teleported xSwtDx to Fariaa]
+[23:51:13] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[23:51:13] [Server thread/INFO]: xSwtDx left the game
+[23:52:02] [Async Chat Thread - #6/INFO]: <Fariaa> copyright
+[23:52:37] [Async Chat Thread - #6/INFO]: <Fariaa> yes
+[23:54:30] [Async Chat Thread - #7/INFO]: <Fariaa> yes
+[23:58:05] [Server thread/INFO]: Kunkers has made the advancement [The Cutest Predator]
+[23:58:30] [Server thread/INFO]: Kunkers has made the advancement [Tactical Fishing]
+[00:01:17] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers
+[00:01:17] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Kunkers]
+[00:07:01] [Async Chat Thread - #8/INFO]: <Fariaa> muralha
+[00:07:03] [Async Chat Thread - #8/INFO]: <Fariaa> one day
+[00:13:40] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[00:13:40] [Server thread/INFO]: Fariaa left the game
+[00:13:55] [Async Chat Thread - #9/INFO]: <Kunkers> dead server
+[00:13:56] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[00:13:56] [Server thread/INFO]: Kunkers left the game
+[01:30:14] [User Authenticator #7/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[01:30:14] [Server thread/INFO]: Kunkers[/94.61.5.137:62443] logged in with entity id 74318 at ([smpino]-1333.374827713997, 89.0, -140.26614078235943)
+[01:39:40] [Async Chat Thread - #10/INFO]: <Kunkers> pegaste a minha pá?
+[01:39:48] [Async Chat Thread - #10/INFO]: <Digger19> no
+[01:50:34] [Server thread/INFO]: Digger19 lost connection: Disconnected
+[01:50:34] [Server thread/INFO]: Digger19 left the game
+[02:12:36] [Server thread/WARN]: Kunkers moved too quickly! 1826.0008368666115,25.23363200604248,662.4824974689977
+[02:23:34] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[02:23:34] [Server thread/INFO]: Kunkers left the game
+[02:23:36] [User Authenticator #8/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[02:23:36] [Server thread/INFO]: Kunkers[/94.61.5.137:60334] logged in with entity id 93344 at ([smpino]-1333.5521853569596, 91.0, -152.7357852890162)
+[02:33:24] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[02:33:24] [Server thread/INFO]: Kunkers left the game
+[10:11:25] [Craft Scheduler Thread - 11/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
+[10:11:25] [Craft Scheduler Thread - 11/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:11:25] [Craft Scheduler Thread - 11/INFO]: [SkinsRestorer]     +==================+
+[10:11:25] [Craft Scheduler Thread - 11/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[10:11:25] [Craft Scheduler Thread - 11/INFO]: [SkinsRestorer]     |------------------|
+[10:11:25] [Craft Scheduler Thread - 11/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[10:11:25] [Craft Scheduler Thread - 11/INFO]: [SkinsRestorer]     +==================+
+[10:11:25] [Craft Scheduler Thread - 11/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:11:25] [Craft Scheduler Thread - 11/INFO]: [SkinsRestorer]     Current version: 14.1.7
+[10:11:25] [Craft Scheduler Thread - 11/INFO]: [SkinsRestorer]     New version: 14.1.8
+[10:11:25] [Craft Scheduler Thread - 11/INFO]: [SkinsRestorer]     A new version is available! Downloading it now...
+[10:11:25] [Craft Scheduler Thread - 11/INFO]: [SkinsRestorer]     Update downloaded successfully, it will be applied on the next restart.
+[10:11:25] [Craft Scheduler Thread - 11/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:11:27] [Craft Scheduler Thread - 11/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as plugins/update/SkinsRestorer_2.jar
+[10:47:22] [User Authenticator #9/INFO]: UUID of player Digger19 is 9677ca35-82d2-3914-83c2-86a250a87eb9
+[10:47:22] [Server thread/INFO]: Digger19[/89.154.169.171:57086] logged in with entity id 94940 at ([smpino]-1096.371525469998, 64.0, 134.74161336828018)
+[10:57:32] [Server thread/INFO]: Digger19 has made the advancement [Local Brewery]
+[11:33:59] [Server thread/INFO]: Digger19 has made the advancement [Best Friends Forever]
+[11:54:02] [User Authenticator #10/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[11:54:03] [Server thread/INFO]: Kunkers[/94.61.5.137:50732] logged in with entity id 104209 at ([smpino]-1335.1491733366977, 98.0, -60.963715945019906)
+[11:54:19] [Async Chat Thread - #11/INFO]: <Kunkers> hello
+[11:54:28] [Async Chat Thread - #11/INFO]: <Digger19> o7
+[11:54:34] [Async Chat Thread - #11/INFO]: <Kunkers> where you at?
+[11:54:40] [Async Chat Thread - #11/INFO]: <Digger19> farming xp
+[11:57:57] [Server thread/INFO]: Digger19 has reached the goal [Sky's the Limit]
+[11:58:11] [Async Chat Thread - #12/INFO]: <Digger19> thank
+[12:05:53] [Server thread/INFO]: Kunkers drowned
+[12:06:08] [Async Chat Thread - #13/INFO]: <Kunkers> dont laugh
+[12:06:20] [Async Chat Thread - #13/INFO]: <Digger19> didn't even realized kek
+[12:12:25] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[12:12:25] [Server thread/INFO]: Kunkers left the game
+[12:45:47] [User Authenticator #11/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[12:45:47] [Server thread/INFO]: xSwtDx[/87.196.101.81:55728] logged in with entity id 115382 at ([smpino]-1246.5007050063284, 70.0, 984.6741210963536)
+[13:04:13] [Server thread/INFO]: Digger19 lost connection: Disconnected
+[13:04:13] [Server thread/INFO]: Digger19 left the game
+[13:19:10] [Server thread/WARN]: xSwtDx moved wrongly!
+[13:22:04] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[13:22:04] [Server thread/INFO]: xSwtDx left the game
+[14:02:59] [User Authenticator #12/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[14:02:59] [Server thread/INFO]: Kunkers[/94.61.5.137:52258] logged in with entity id 123553 at ([smpino]-2606.52421266426, -2.0, -940.7064487211175)
+[14:17:09] [User Authenticator #13/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[14:17:09] [Server thread/INFO]: Fariaa[/89.115.202.128:50385] logged in with entity id 134561 at ([smpino]-2582.211507495255, 78.0, -837.3356613964747)
+[14:20:55] [Server thread/INFO]: Kunkers has completed the challenge [Serious Dedication]
+[14:31:42] [Server thread/INFO]: Fariaa has made the advancement [Whatever Floats Your Goat!]
+[14:32:16] [User Authenticator #14/INFO]: UUID of player Digger19 is 9677ca35-82d2-3914-83c2-86a250a87eb9
+[14:32:16] [Server thread/INFO]: Digger19[/89.154.169.171:54201] logged in with entity id 143251 at ([smpino]-1098.5111245513585, 67.0, 161.26679942361093)
+[14:32:29] [Server thread/INFO]: Fariaa has made the advancement [Sound of Music]
+[14:32:32] [Async Chat Thread - #14/INFO]: <Kunkers> what is that skin?
+[14:32:37] [Async Chat Thread - #14/INFO]: <Kunkers> tira a roupa
+[14:32:46] [Async Chat Thread - #14/INFO]: <Kunkers> wtf is that
+[14:32:50] [Async Chat Thread - #14/INFO]: <Fariaa> me nigga
+[14:32:52] [Async Chat Thread - #14/INFO]: <Digger19> apaga as luzes
+[14:32:55] [Async Chat Thread - #14/INFO]: <Kunkers> ooohh
+[14:32:57] [Async Chat Thread - #14/INFO]: <Kunkers> ahahahahhahahah
+[14:32:59] [Async Chat Thread - #14/INFO]: <Digger19> vem deitar te ao meu lado
+[14:33:03] [Async Chat Thread - #14/INFO]: <Kunkers> pera
+[14:33:07] [Async Chat Thread - #14/INFO]: <Kunkers> fica quieto
+[14:33:15] [Async Chat Thread - #14/INFO]: <Kunkers> deixa tirar fgoto
+[14:34:48] [Server thread/INFO]: Kunkers has made the advancement [Wax On]
+[14:34:50] [Server thread/INFO]: Kunkers has made the advancement [Wax Off]
+[14:37:09] [User Authenticator #15/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[14:37:09] [Server thread/INFO]: xSwtDx[/87.196.101.81:51363] logged in with entity id 147199 at ([smpino]-1236.1478697206944, 95.0, 952.2594885431984)
+[14:37:22] [Async Chat Thread - #15/INFO]: <Kunkers> man everytime sweet dick enter
+[14:37:26] [Async Chat Thread - #15/INFO]: <Kunkers> the server lags
+[14:37:38] [Async Chat Thread - #15/INFO]: <xSwtDx> yep , demora 7 anos para entrar
+[14:38:28] [Server thread/INFO]: Fariaa has made the advancement [Is It a Bird?]
+[14:40:02] [Server thread/INFO]: Digger19 has made the advancement [Is It a Bird?]
+[14:40:06] [Async Chat Thread - #16/INFO]: <Fariaa> where the f is the spawner
+[14:40:42] [Async Chat Thread - #16/INFO]: <Fariaa> ty
+[14:41:22] [Server thread/INFO]: Kunkers has made the advancement [Country Lode, Take Me Home]
+[14:41:35] [Server thread/INFO]: Fariaa issued server command: /me afk
+[14:41:35] [Server thread/INFO]: * Fariaa afk
+[14:42:38] [Server thread/INFO]: Kunkers has made the advancement [Not Quite "Nine" Lives]
+[14:43:48] [Server thread/INFO]: Kunkers has made the advancement [Is It a Bird?]
+[15:01:21] [User Authenticator #16/INFO]: UUID of player Krix2g is e755e9ff-c888-3a3c-bb84-bca624ee043b
+[15:01:21] [Server thread/INFO]: Krix2g[/178.166.53.145:64128] logged in with entity id 162822 at ([smpino]-1353.6735611619356, 118.0, -462.29201360690496)
+[15:02:17] [Server thread/INFO]: Krix2g lost connection: Disconnected
+[15:02:17] [Server thread/INFO]: Krix2g left the game
+[15:04:39] [User Authenticator #17/INFO]: UUID of player Krix2g is e755e9ff-c888-3a3c-bb84-bca624ee043b
+[15:04:39] [Server thread/INFO]: Krix2g[/178.166.53.145:23031] logged in with entity id 164781 at ([smpino]-1353.6735611619356, 118.0, -462.29201360690496)
+[15:06:41] [Server thread/INFO]: Krix2g issued server command: /plugns
+[15:06:43] [Server thread/INFO]: Krix2g issued server command: /plugins
+[15:07:00] [Async Chat Thread - #17/INFO]: <xSwtDx> tp faria pls
+[15:07:02] [Async Chat Thread - #17/INFO]: <Krix2g> e que tal terem metido o essentials quando meteram as skins?
+[15:07:03] [Async Chat Thread - #17/INFO]: <xSwtDx> fighting for my life
+[15:07:17] [Async Chat Thread - #17/INFO]: <Kunkers> what essentials?
+[15:07:29] [Async Chat Thread - #17/INFO]: <Digger19> krix so pessoas q mataram o dragon e q podem dar opinioes
+[15:12:53] [Server thread/WARN]: Krix2g moved wrongly!
+[15:12:53] [Server thread/WARN]: Krix2g moved wrongly!
+[15:12:53] [Server thread/WARN]: Krix2g moved wrongly!
+[15:13:30] [Server thread/INFO]: Krix2g has made the advancement [The End?]
+[15:13:31] [Async Chat Thread - #18/INFO]: <Fariaa> man
+[15:13:37] [Async Chat Thread - #18/INFO]: <Digger19> yoink
+[15:13:41] [Async Chat Thread - #18/INFO]: <Fariaa> fucking hell pires
+[15:13:47] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[15:13:47] [Server thread/INFO]: xSwtDx left the game
+[15:13:53] [Async Chat Thread - #18/INFO]: <Digger19> cant have shit in detroit my nigga
+[15:21:36] [Server thread/INFO]: Fariaa issued server command: /tp Krix2g
+[15:21:36] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Krix2g]
+[15:21:44] [Server thread/INFO]: Fariaa issued server command: /tp Digger19
+[15:21:44] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Digger19]
+[15:21:50] [Server thread/INFO]: Fariaa was slain by Digger19
+[15:21:56] [Server thread/INFO]: Fariaa issued server command: /tp Digger19
+[15:21:56] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Digger19]
+[15:22:05] [Async Chat Thread - #19/INFO]: <Fariaa> k pires
+[15:22:18] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers
+[15:22:18] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Kunkers]
+[15:22:23] [Async Chat Thread - #19/INFO]: <Digger19> no tp abuse
+[15:22:31] [Server thread/INFO]: Fariaa was slain by Kunkers using [Nigger Slitter II]
+[15:22:40] [Server thread/INFO]: Fariaa issued server command: /tp Kunkers
+[15:22:40] [Server thread/INFO]: [Fariaa: Teleported Fariaa to Kunkers]
+[15:22:42] [Async Chat Thread - #19/INFO]: <Kunkers> np tp abuse
+[15:22:51] [Async Chat Thread - #19/INFO]: <Fariaa> steal my xp
+[15:22:55] [Async Chat Thread - #19/INFO]: <Fariaa> que queres que faça
+[15:23:09] [Async Chat Thread - #19/INFO]: <Kunkers> np tp abuse
+[15:23:17] [Async Chat Thread - #19/INFO]: <Kunkers> no*
+[15:25:03] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[15:25:03] [Server thread/INFO]: Fariaa left the game
+[15:25:30] [Server thread/INFO]: Digger19 has made the advancement [Is It a Balloon?]
+[15:31:49] [User Authenticator #18/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[15:31:49] [Server thread/INFO]: xSwtDx[/87.196.101.81:52612] logged in with entity id 188985 at ([smpino]-1243.777216866198, 70.0, 986.210104271285)
+[15:31:55] [Async Chat Thread - #20/INFO]: <Kunkers> hello
+[15:40:05] [Server thread/INFO]: Krix2g lost connection: Timed out
+[15:40:05] [Server thread/INFO]: Krix2g left the game
+[15:40:13] [User Authenticator #19/INFO]: UUID of player Krix2g is e755e9ff-c888-3a3c-bb84-bca624ee043b
+[15:40:14] [Server thread/INFO]: Krix2g[/178.166.53.145:62034] logged in with entity id 193319 at ([smpino]-1294.699999988079, 21.0, -570.7484844750028)
+[15:49:46] [Server thread/INFO]: Krix2g lost connection: Disconnected
+[15:49:46] [Server thread/INFO]: Krix2g left the game
+[15:59:49] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[15:59:49] [Server thread/INFO]: xSwtDx left the game
+[16:05:33] [Server thread/INFO]: Kunkers has made the advancement [Spooky Scary Skeleton]
+[16:24:05] [Server thread/INFO]: Kunkers fell from a high place
+[16:29:24] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[16:29:24] [Server thread/INFO]: Kunkers left the game
+[16:45:07] [Server thread/INFO]: Digger19 was burnt to a crisp whilst fighting Magma Cube
+[16:45:14] [Server thread/INFO]: Digger19 lost connection: Disconnected
+[16:45:14] [Server thread/INFO]: Digger19 left the game
+[17:25:30] [User Authenticator #20/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[17:25:31] [Server thread/INFO]: Kunkers[/94.61.5.137:4549] logged in with entity id 214061 at ([smpino]-1335.699999988079, 102.0, -86.41160901995902)
+[17:33:13] [Server thread/INFO]: Kunkers was slain by Zombie
+[18:18:55] [Server thread/INFO]: Kunkers was blown up by Creeper
+[18:32:11] [Server thread/INFO]: Kunkers has made the advancement [Is It a Balloon?]
+[18:37:07] [User Authenticator #21/INFO]: UUID of player _Moki is ae5c0ec8-f242-3425-ae53-7d28eee6783b
+[18:37:07] [Server thread/INFO]: _Moki[/94.62.177.219:60364] logged in with entity id 228199 at ([smpino]-1115.6301147113948, 66.0, 125.29984403438303)
+[18:39:10] [Server thread/INFO]: _Moki lost connection: Disconnected
+[18:39:10] [Server thread/INFO]: _Moki left the game
+[18:59:02] [User Authenticator #22/INFO]: UUID of player Krix2g is e755e9ff-c888-3a3c-bb84-bca624ee043b
+[18:59:02] [Server thread/INFO]: Krix2g[/178.166.53.145:53284] logged in with entity id 232514 at ([smpino]-1187.9329775729893, -55.0, -455.69866211935255)
+[19:23:10] [Server thread/WARN]: Krix2g moved too quickly! -7.87115235572719,-0.21039123342299604,9.992805063547678
+[19:40:01] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[19:40:01] [Server thread/INFO]: Kunkers left the game
+[19:51:39] [Async Chat Thread - #21/INFO]: <Krix2g> 56
+[19:52:08] [Async Chat Thread - #21/INFO]: <Krix2g> 37
+[19:58:41] [Server thread/WARN]: Krix2g moved wrongly!
+[19:59:00] [Server thread/WARN]: Krix2g moved wrongly!
+[20:00:15] [Server thread/WARN]: Krix2g moved wrongly!
+[20:00:15] [Server thread/WARN]: Krix2g moved wrongly!
+[20:00:16] [Server thread/WARN]: Krix2g moved wrongly!
+[20:00:16] [Server thread/WARN]: Krix2g moved wrongly!
+[20:00:16] [Server thread/WARN]: Krix2g moved wrongly!
+[20:00:16] [Server thread/WARN]: Krix2g moved wrongly!
+[20:00:16] [Server thread/WARN]: Krix2g moved wrongly!
+[20:00:16] [Server thread/WARN]: Krix2g moved wrongly!
+[20:00:17] [Server thread/WARN]: Krix2g moved wrongly!
+[20:00:18] [Server thread/WARN]: Krix2g moved wrongly!
+[20:00:18] [Server thread/WARN]: Krix2g moved wrongly!
+[20:00:33] [Server thread/WARN]: Krix2g moved wrongly!
+[20:00:33] [Server thread/WARN]: Krix2g moved wrongly!
+[20:50:59] [User Authenticator #23/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[20:50:59] [Server thread/INFO]: Kunkers[/94.61.5.137:9539] logged in with entity id 273721 at ([smpino]-1335.1325721094165, 98.0, -73.14915631514289)
+[20:51:31] [Async Chat Thread - #22/INFO]: <Krix2g> 61
+[20:53:04] [Async Chat Thread - #23/INFO]: <Kunkers> 61
+[20:53:16] [Async Chat Thread - #23/INFO]: <Krix2g> you think you funny?
+[20:53:24] [Async Chat Thread - #23/INFO]: <Krix2g> you think this is joke?
+[20:53:35] [Async Chat Thread - #23/INFO]: <Krix2g> people die everyday
+[20:53:38] [Async Chat Thread - #23/INFO]: <Krix2g> you know?
+[21:00:17] [User Authenticator #24/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[21:00:17] [Server thread/INFO]: Fariaa[/89.115.202.128:56784] logged in with entity id 277719 at ([smpino]-2572.4724920995873, 66.0, -848.8141315535571)
+[21:04:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5242ms or 104 ticks behind
+[21:08:23] [Server thread/WARN]: Krix2g moved too quickly! 1825.9101996100992,25.1875,662.1600539166427
+[21:09:57] [Async Chat Thread - #24/INFO]: <Kunkers> faria podes dormir?»
+[21:15:36] [Server thread/INFO]: Krix2g lost connection: Disconnected
+[21:15:36] [Server thread/INFO]: Krix2g left the game
+[21:21:35] [Async Chat Thread - #25/INFO]: <Kunkers> faria
+[21:21:40] [Async Chat Thread - #25/INFO]: <Kunkers> podes dormir?
+[21:33:40] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[21:33:40] [Server thread/INFO]: Fariaa left the game
+[22:38:36] [Server thread/INFO]: Kunkers has made the advancement [Glow and Behold!]
+[23:13:00] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[23:13:00] [Server thread/INFO]: Kunkers left the game
+[23:13:01] [User Authenticator #25/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[23:13:01] [Server thread/INFO]: Kunkers[/94.61.5.137:58280] logged in with entity id 317725 at ([smpino]-1335.4606817057106, 98.0, -77.17458154337528)
+[23:57:03] [User Authenticator #26/INFO]: UUID of player _Moki is ae5c0ec8-f242-3425-ae53-7d28eee6783b
+[23:57:03] [Server thread/INFO]: _Moki[/94.62.177.219:64086] logged in with entity id 325297 at ([smpino]-1131.0609922427236, 68.0, 122.2714853482253)
+[00:06:05] [Async Chat Thread - #26/INFO]: <Kunkers> tas a falar com a inês, né?
+[00:06:08] [Async Chat Thread - #26/INFO]: <_Moki> no
+[00:08:55] [Server thread/INFO]: Kunkers hit the ground too hard
+[00:24:30] [Async Chat Thread - #27/INFO]: <Kunkers> ta nos baus onde tem netherrack no item frame
+[01:00:40] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[01:00:40] [Server thread/INFO]: Kunkers left the game
+[01:04:10] [Async Chat Thread - #28/INFO]: <_Moki> ??!?!??!!???!?!??!?!??!
+[01:04:31] [Server thread/INFO]: _Moki lost connection: Disconnected
+[01:04:31] [Server thread/INFO]: _Moki left the game
+[09:40:59] [User Authenticator #27/INFO]: UUID of player _Moki is ae5c0ec8-f242-3425-ae53-7d28eee6783b
+[09:40:59] [Server thread/INFO]: _Moki[/94.62.177.219:42573] logged in with entity id 340862 at ([smpino]-1112.9103839503803, 66.0, 127.32174733070845)
+[09:56:11] [Server thread/INFO]: _Moki lost connection: Disconnected
+[09:56:11] [Server thread/INFO]: _Moki left the game
+[11:27:33] [User Authenticator #28/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[11:27:33] [Server thread/INFO]: Kunkers[/94.61.5.137:54658] logged in with entity id 342772 at ([smpino]-1339.1709823203817, 108.0, -96.84837082526508)
+[11:44:53] [Server thread/INFO]: Kunkers has made the advancement [Oh Shiny]
+[11:50:53] [Server thread/INFO]: Kunkers has made the advancement [This Boat Has Legs]
+[11:54:52] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[11:54:52] [Server thread/INFO]: Kunkers left the game
+[13:47:26] [User Authenticator #29/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[13:47:26] [Server thread/INFO]: Kunkers[/94.61.5.137:54382] logged in with entity id 353445 at ([smpino_nether]-161.43501288871792, 75.0, -12.477083223166066)
+[14:30:57] [User Authenticator #30/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[14:30:57] [Server thread/INFO]: xSwtDx[/87.196.101.81:51525] logged in with entity id 364090 at ([smpino]-1222.6894024679368, 71.0, 1004.9719585465672)
+[14:31:25] [Async Chat Thread - #29/INFO]: <xSwtDx> cumkers
+[14:31:29] [Async Chat Thread - #29/INFO]: <Kunkers> warup
+[14:52:40] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[14:52:40] [Server thread/INFO]: xSwtDx left the game
+[15:35:02] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[15:35:02] [Server thread/INFO]: Kunkers left the game
+[17:18:52] [User Authenticator #31/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[17:18:52] [Server thread/INFO]: Kunkers[/94.61.5.137:50380] logged in with entity id 384083 at ([smpino]-1305.0926266812462, 111.5, -133.51707391073376)
+[18:30:04] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[18:30:04] [Server thread/INFO]: Kunkers left the game
+[19:34:26] [User Authenticator #32/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[19:34:26] [Server thread/INFO]: Kunkers[/94.61.5.137:55948] logged in with entity id 402082 at ([smpino]-1302.7438190571067, 144.0, -95.42465305298381)
+[20:07:20] [User Authenticator #33/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[20:07:21] [Server thread/INFO]: xSwtDx[/89.115.27.112:22089] logged in with entity id 407850 at ([smpino]-1243.543304010103, 70.0, 985.3000000119209)
+[20:07:29] [Async Chat Thread - #30/INFO]: <Kunkers> hello
+[20:07:43] [Async Chat Thread - #30/INFO]: <xSwtDx> kunkers saving the server
+[20:07:56] [Async Chat Thread - #30/INFO]: <Kunkers> fucking faaaa
+[20:22:59] [Async Chat Thread - #31/INFO]: <Kunkers> watcha you doing?
+[20:23:06] [Async Chat Thread - #31/INFO]: <xSwtDx> mining
+[20:23:15] [Async Chat Thread - #31/INFO]: <Kunkers> mining in minecraft
+[20:23:18] [Async Chat Thread - #31/INFO]: <Kunkers> peasant
+[20:23:22] [Async Chat Thread - #31/INFO]: <xSwtDx> -59 right?
+[20:23:24] [Async Chat Thread - #31/INFO]: <xSwtDx> ikr
+[20:23:29] [Async Chat Thread - #31/INFO]: <Kunkers> ye
+[20:27:51] [Async Chat Thread - #32/INFO]: <xSwtDx> man -59 got nothing
+[20:31:16] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[20:31:16] [Server thread/INFO]: xSwtDx left the game
+[20:32:19] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[20:32:19] [Server thread/INFO]: Kunkers left the game
+[20:32:20] [User Authenticator #34/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[20:32:20] [Server thread/INFO]: Kunkers[/94.61.5.137:23093] logged in with entity id 415346 at ([smpino]-1415.4417247946872, 23.0, -76.02571291931348)
+[21:05:15] [User Authenticator #35/INFO]: UUID of player Fariaa is 6bdaa7e1-a8a0-3815-b3d4-407b004a1c27
+[21:05:15] [Server thread/INFO]: Fariaa[/89.115.202.128:28617] logged in with entity id 423497 at ([smpino]-2647.8823070292697, 75.0, -894.5306065856417)
+[21:11:07] [Server thread/WARN]: Fariaa moved wrongly!
+[21:16:13] [Async Chat Thread - #33/INFO]: <Kunkers> baa lol?
+[21:16:23] [Async Chat Thread - #33/INFO]: <Fariaa> jantar
+[21:19:16] [Server thread/INFO]: Fariaa lost connection: Disconnected
+[21:19:16] [Server thread/INFO]: Fariaa left the game
+[21:48:24] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[21:48:24] [Server thread/INFO]: Kunkers left the game
+[22:10:38] [User Authenticator #36/INFO]: UUID of player _Moki is ae5c0ec8-f242-3425-ae53-7d28eee6783b
+[22:10:38] [Server thread/INFO]: _Moki[/94.62.177.219:47821] logged in with entity id 439773 at ([smpino]-1122.0690315860804, 68.0, 121.82580220846903)
+[22:46:09] [Server thread/INFO]: _Moki lost connection: Disconnected
+[22:46:09] [Server thread/INFO]: _Moki left the game
+[23:13:49] [User Authenticator #37/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[23:13:50] [Server thread/INFO]: Kunkers[/94.61.5.137:25347] logged in with entity id 444234 at ([smpino]-1329.592723833316, 108.0, -93.90352475437126)
+[00:07:16] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[00:07:16] [Server thread/INFO]: Kunkers left the game
+[12:03:41] [User Authenticator #38/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[12:03:41] [Server thread/INFO]: Kunkers[/94.61.5.137:55050] logged in with entity id 455470 at ([smpino]-1336.7326657817473, 98.0, -71.86314001995082)
+[13:06:48] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[13:06:48] [Server thread/INFO]: Kunkers left the game
+[14:35:20] [User Authenticator #39/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[14:35:21] [Server thread/INFO]: Kunkers[/94.61.5.137:50162] logged in with entity id 470604 at ([smpino]-1328.9012105025706, 107.9375, -93.88522049631327)
+[14:48:18] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[14:48:18] [Server thread/INFO]: Kunkers left the game
+[15:17:18] [User Authenticator #40/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[15:17:18] [Server thread/INFO]: Kunkers[/94.61.5.137:56990] logged in with entity id 473912 at ([smpino_nether]-158.30000001192093, 74.0, -8.899297593660002)
+[16:17:23] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[16:17:23] [Server thread/INFO]: Kunkers left the game
+[17:35:46] [User Authenticator #41/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[17:35:46] [Server thread/INFO]: Kunkers[/94.61.5.137:33392] logged in with entity id 483432 at ([smpino]-1313.6411596504722, 105.0, -114.96256417645922)
+[18:16:22] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[18:16:22] [Server thread/INFO]: Kunkers left the game
+[19:35:44] [User Authenticator #42/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[19:35:45] [Server thread/INFO]: Kunkers[/94.61.5.137:59284] logged in with entity id 490010 at ([smpino]-2581.03434918699, 78.0, -845.5764477153767)
+[20:43:00] [User Authenticator #43/INFO]: UUID of player xSwtDx is 3b237a1c-ff9e-3384-b764-ba9ab5f39f59
+[20:43:00] [Server thread/INFO]: xSwtDx[/89.115.27.112:27087] logged in with entity id 510978 at ([smpino]-1238.3177060712521, 95.0, 953.6375812504458)
+[20:43:04] [Server thread/WARN]: Kunkers moved too quickly! -39.598136964400055,-8.264196771699602,27.697810862114522
+[20:44:50] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[20:44:50] [Server thread/INFO]: Kunkers left the game
+[20:45:26] [User Authenticator #44/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[20:45:26] [Server thread/INFO]: Kunkers[/94.61.5.137:51386] logged in with entity id 514107 at ([smpino]-2564.9441142178043, 68.0, -915.5876101215182)
+[20:47:54] [Server thread/INFO]: xSwtDx lost connection: Disconnected
+[20:47:54] [Server thread/INFO]: xSwtDx left the game
+[20:49:18] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[20:49:18] [Server thread/INFO]: Kunkers left the game
+[00:33:27] [User Authenticator #45/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[00:33:27] [Server thread/INFO]: Kunkers[/94.61.5.137:56688] logged in with entity id 516323 at ([smpino]-1335.7947072421148, 98.0, -54.26444112288871)
+[00:54:07] [Server thread/INFO]: Kunkers has made the advancement [Ol' Betsy]
+[01:39:21] [Server thread/INFO]: Kunkers has reached the goal [Hired Help]
+[01:40:17] [Async Chat Thread - #34/INFO]: <Kunkers> -1300 -110
+[01:47:21] [Server thread/INFO]: Kunkers was blown up by Creeper
+[01:47:49] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[01:47:49] [Server thread/INFO]: Kunkers left the game
+[11:35:37] [User Authenticator #46/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[11:35:37] [Server thread/INFO]: Kunkers[/94.61.5.137:56768] logged in with entity id 582791 at ([smpino]-1333.5, 108.0, -83.5)
+[11:45:30] [Server thread/INFO]: Kunkers was slain by Enderman
+[12:02:23] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[12:02:23] [Server thread/INFO]: Kunkers left the game
+[12:32:43] [User Authenticator #47/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[12:32:43] [Server thread/INFO]: Kunkers[/94.61.5.137:61789] logged in with entity id 598155 at ([smpino]-2599.473388977768, 76.0, -848.9622169174561)
+[12:56:44] [Server thread/WARN]: Kunkers moved too quickly! 1826.2151071284907,25.23363200604248,662.3669488039039
+[13:24:45] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[13:24:45] [Server thread/INFO]: Kunkers left the game
+[14:21:01] [User Authenticator #48/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[14:21:01] [Server thread/INFO]: Kunkers[/94.61.5.137:61139] logged in with entity id 627185 at ([smpino]-1333.3881899874787, 98.0, -70.92872318911328)
+[14:54:49] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[14:54:49] [Server thread/INFO]: Kunkers left the game
+[15:27:04] [User Authenticator #49/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[15:27:04] [Server thread/INFO]: Kunkers[/94.61.5.137:52860] logged in with entity id 644958 at ([smpino]-1336.688442276566, 98.0, -62.60825910493185)
+[15:39:31] [Server thread/WARN]: Kunkers moved too quickly! 1826.2064975814965,25.23363200604248,662.2091427849944
+[16:21:40] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[16:21:40] [Server thread/INFO]: Kunkers left the game
+[18:35:35] [User Authenticator #50/INFO]: UUID of player Kunkers is 3522eb8f-3a30-323e-9492-bd759cf3bf85
+[18:35:36] [Server thread/INFO]: Kunkers[/94.61.5.137:54585] logged in with entity id 671513 at ([smpino]-1334.2878197104014, 98.0, -69.47776804260704)
+[19:06:02] [Server thread/INFO]: Kunkers lost connection: Disconnected
+[19:06:02] [Server thread/INFO]: Kunkers left the game

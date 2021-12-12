@@ -89,6 +89,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2021-12-07 23:21:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_brick_slab": {
     "criteria": {
       "has_nether_bricks": "2021-12-01 19:02:10 +0000"
@@ -143,6 +149,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2021-12-07 23:21:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2021-11-30 19:30:45 +0000"
@@ -176,6 +188,12 @@
   "minecraft:recipes/decorations/blast_furnace": {
     "criteria": {
       "has_smooth_stone": "2021-12-01 15:11:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2021-12-07 23:25:18 +0000"
     },
     "done": true
   },
@@ -332,6 +350,12 @@
   "minecraft:recipes/misc/flower_banner_pattern": {
     "criteria": {
       "has_oxeye_daisy": "2021-12-04 13:47:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2021-12-07 23:21:37 +0000"
     },
     "done": true
   },
@@ -851,6 +875,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/ride_a_boat_with_a_goat": {
+    "criteria": {
+      "ride_a_boat_with_a_goat": "2021-12-08 14:31:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_sand": "2021-11-30 19:43:25 +0000"
@@ -872,6 +902,12 @@
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
       "has_string": "2021-11-30 19:37:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2021-12-07 23:21:37 +0000"
     },
     "done": true
   },
@@ -897,6 +933,7 @@
       "minecraft:hoglin": "2021-12-02 23:23:57 +0000",
       "minecraft:vindicator": "2021-12-03 22:49:27 +0000",
       "minecraft:spider": "2021-11-30 19:37:06 +0000",
+      "minecraft:piglin_brute": "2021-12-07 23:24:18 +0000",
       "minecraft:creeper": "2021-11-30 20:47:35 +0000",
       "minecraft:slime": "2021-11-30 21:23:40 +0000",
       "minecraft:evoker": "2021-12-03 23:03:04 +0000",
@@ -911,6 +948,7 @@
       "minecraft:silverfish": "2021-12-02 16:49:57 +0000",
       "minecraft:vex": "2021-12-03 23:00:39 +0000",
       "minecraft:zombie": "2021-11-30 19:40:55 +0000",
+      "minecraft:drowned": "2021-12-07 22:37:02 +0000",
       "minecraft:zombie_villager": "2021-11-30 21:22:10 +0000"
     },
     "done": false
@@ -1161,6 +1199,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2021-12-07 23:20:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2021-12-01 11:44:51 +0000"
@@ -1353,6 +1397,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/spyglass_at_parrot": {
+    "criteria": {
+      "spyglass_at_parrot": "2021-12-08 14:38:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cyan_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2021-12-01 11:44:55 +0000"
@@ -1440,6 +1490,12 @@
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
       "has_log": "2021-11-30 23:51:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2021-12-07 23:21:37 +0000"
     },
     "done": true
   },
@@ -1860,6 +1916,7 @@
       "minecraft:snowy_taiga": "2021-12-07 14:16:41 +0000",
       "minecraft:grove": "2021-11-30 22:18:22 +0000",
       "minecraft:swamp": "2021-12-07 14:17:05 +0000",
+      "minecraft:cold_ocean": "2021-12-07 22:35:43 +0000",
       "minecraft:forest": "2021-11-30 20:03:23 +0000",
       "minecraft:lush_caves": "2021-12-01 15:32:18 +0000",
       "minecraft:deep_cold_ocean": "2021-12-02 16:47:42 +0000",
@@ -2019,6 +2076,12 @@
   "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2021-12-01 11:44:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2021-12-07 23:19:30 +0000"
     },
     "done": true
   },
@@ -2376,6 +2439,12 @@
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2021-12-01 14:11:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/play_jukebox_in_meadows": {
+    "criteria": {
+      "play_jukebox_in_meadows": "2021-12-08 14:32:29 +0000"
     },
     "done": true
   },
@@ -3440,6 +3509,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2021-12-07 23:21:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/snow": {
     "criteria": {
       "has_snowball": "2021-12-03 22:50:54 +0000"
@@ -3773,6 +3848,12 @@
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2021-12-01 11:44:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2021-12-07 22:36:58 +0000"
     },
     "done": true
   },
@@ -4142,6 +4223,12 @@
     },
     "done": true
   },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_hoglin_stable": "2021-12-07 23:20:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2021-11-30 19:39:17 +0000"
@@ -4377,6 +4464,7 @@
       "textures/entity/cat/black.png": "2021-12-02 21:11:29 +0000",
       "textures/entity/cat/jellie.png": "2021-12-04 19:29:28 +0000",
       "textures/entity/cat/siamese.png": "2021-12-04 13:09:14 +0000",
+      "textures/entity/cat/british_shorthair.png": "2021-12-07 23:52:54 +0000",
       "textures/entity/cat/all_black.png": "2021-12-04 13:08:59 +0000",
       "textures/entity/cat/persian.png": "2021-12-02 22:21:00 +0000",
       "textures/entity/cat/calico.png": "2021-12-07 18:43:56 +0000"
@@ -4446,6 +4534,12 @@
   "minecraft:recipes/decorations/gray_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2021-12-01 14:46:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2021-12-07 23:21:37 +0000"
     },
     "done": true
   },
